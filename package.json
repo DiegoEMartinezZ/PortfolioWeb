@@ -1,8 +1,8 @@
 {
-  "homepage": "https://DiegoEMartinezZ.github.io/PortfolioWeb",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://DiegoEMartinezZ.github.io/PortfolioWeb",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
     "@fortawesome/free-brands-svg-icons": "^6.1.1",
