@@ -1,0 +1,92 @@
+div.socialmedia-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+section.about,
+section.abilities,
+section.projects {
+  margin-top: 8rem;
+  height: 100vh;
+  width: auto;
+}
+
+div.socialmedia-container li a {
+  color: #fff;
+  font-size: 1rem;
+}
+
+div.socialmedia-container li a:hover {
+  cursor: pointer;
+  color: #3ae7ff;
+}
+
+h1 {
+  margin: 0 3rem;
+  margin-top: 3rem;
+  color: #004056;
+}
+
+h2.ability-title {
+  margin: 0.5rem 0;
+}
+
+h3 {
+  color: #324b4b;
+  font-weight: lighter;
+  margin: 0.8rem;
+}
+
+h5 {
+  font-weight: lighter;
+}
+
+div.space {
+  border-top: 0.2rem #004056 solid;
+  width: 2%;
+  margin: auto;
+  margin-top: 0.5rem;
+}
+
+p {
+  margin: 2.5rem 32%;
+  font-size: 1rem;
+  color: #324b4b;
+}
+
+section.abilities {
+  margin: auto;
+  padding: 3rem;
+}
+
+.abilitiesIcon {
+  font-size: 2rem;
+  margin: 1rem;
+  padding: 1.2rem;
+  clip-path: circle(45% at 50% 50%);
+  background-color: #3ae7ff;
+}
+
+section.abilities {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: auto;
+}
+
+p.ability-description {
+  margin: auto 10rem;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: auto;
+  background-color: #004056;
+  color: #fff;
+  padding: 1.5rem;
+  border-top: 0.3rem solid #3ae7ff;
+}
