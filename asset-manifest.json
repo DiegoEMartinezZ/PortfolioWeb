@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/DiegoEMartinezZ/DiegoEMartinezZ.github.io/static/css/main.f3dcff50.css",
-    "main.js": "/DiegoEMartinezZ/DiegoEMartinezZ.github.io/static/js/main.24c4e175.js",
-    "index.html": "/DiegoEMartinezZ/DiegoEMartinezZ.github.io/index.html",
-    "main.f3dcff50.css.map": "/DiegoEMartinezZ/DiegoEMartinezZ.github.io/static/css/main.f3dcff50.css.map",
-    "main.24c4e175.js.map": "/DiegoEMartinezZ/DiegoEMartinezZ.github.io/static/js/main.24c4e175.js.map"
+    "main.css": "/DiegoEMartinezZ.github.io/static/css/main.f3dcff50.css",
+    "main.js": "/DiegoEMartinezZ.github.io/static/js/main.24c4e175.js",
+    "index.html": "/DiegoEMartinezZ.github.io/index.html",
+    "main.f3dcff50.css.map": "/DiegoEMartinezZ.github.io/static/css/main.f3dcff50.css.map",
+    "main.24c4e175.js.map": "/DiegoEMartinezZ.github.io/static/js/main.24c4e175.js.map"
   },
   "entrypoints": [
     "static/css/main.f3dcff50.css",
