@@ -44,8 +44,8 @@ export const About = () => {
             <FontAwesomeIcon icon={faWandSparkles} className="abilitiesIcon" />
             <h2 className="ability-title"> Innovate </h2>
             <p className="ability-description">
-              Apps that are 'outside of the box' and seek to be more
-              interactives with the user who is using it.
+              New apps that seek to be more interactives with the user who is
+              using it.
             </p>
           </article>
         </section>
