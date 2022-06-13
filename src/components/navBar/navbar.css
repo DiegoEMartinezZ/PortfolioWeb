@@ -10,6 +10,10 @@ ul {
   list-style: none;
 }
 
+a {
+  text-decoration: none;
+}
+
 div ul.navbar {
   position: fixed;
   top: 0;

@@ -3,8 +3,9 @@ import "../about/styles.css";
 
 export const Projects = () => {
   return (
-    <div className="projects-container">
+    <div className="projects-container" id="projects">
       <section className="projects">
+        <br />
         <h1> Projects </h1>
         <div className="space"> </div>
         <p>

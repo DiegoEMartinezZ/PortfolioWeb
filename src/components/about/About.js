@@ -8,9 +8,10 @@ import {
 
 export const About = () => {
   return (
-    <div className="about-container">
+    <div className="about-container" id="about">
       <section className="about">
-        <h1> About </h1>
+        <br />
+        <h1 className="about-title"> About </h1>
         <div className="space"> </div>
 
         <p>

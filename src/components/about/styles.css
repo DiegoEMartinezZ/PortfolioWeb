@@ -5,10 +5,9 @@ div.socialmedia-container {
   font-size: 1.2rem;
 }
 
-section.about,
-section.abilities,
-section.projects {
-  margin-top: 8rem;
+#about,
+#projects,
+#contact {
   height: 100vh;
   width: auto;
 }
@@ -23,9 +22,9 @@ div.socialmedia-container li a:hover {
   color: #3ae7ff;
 }
 
-h1 {
+h1.about-title {
   margin: 0 3rem;
-  margin-top: 3rem;
+  margin-top: 5rem;
   color: #004056;
 }
 
