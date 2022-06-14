@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   font-family: sans-serif, Arial, Helvetica, sans-serif;
-  transition: all 0.1s;
+  transition: all 0.1s ease;
 }
 
 ul {
@@ -21,9 +21,10 @@ div ul.navbar {
   left: 0;
   z-index: 1;
   display: flex;
-  justify-content: space-around;
   align-items: center;
-  padding: 1rem 25rem;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  padding: 1rem 0;
   background-color: #004056;
   font-size: 1rem;
   border-bottom: 0.3rem solid #3ae7ff;

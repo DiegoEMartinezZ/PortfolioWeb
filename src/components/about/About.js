@@ -13,14 +13,12 @@ export const About = () => {
         <br />
         <h1 className="about-title"> About </h1>
         <div className="space"> </div>
-
         <p>
           I'm a Full-stack Developer from Bogotá - Colombia. I have experience
           in graphic design, character design, branding and advertising
           creatives. Passionate on creating intuitive, responsive and good
-          looking user experiences through website development.
-          <br />
-          Feel free to take a look at my lates projects.
+          looking user experiences through website development. Feel free to
+          take a look at my lates projects.
         </p>
         <section className="abilities">
           <article className="ability-container">
