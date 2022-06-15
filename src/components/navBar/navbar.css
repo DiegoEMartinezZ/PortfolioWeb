@@ -18,7 +18,8 @@ div ul.navbar {
   flex-wrap: nowrap;
   padding: 1rem 0;
   background-color: #004056;
-  font-size: 1rem;
+  font-size: 0.9rem;
+
   border-bottom: 0.3rem solid #3ae7ff;
 }
 
