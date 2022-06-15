@@ -1,10 +1,11 @@
-import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {
   faCircleCheck,
   faLaptop,
   faWandSparkles,
-} from "@fortawesome/free-solid-svg-icons";
+} from '@fortawesome/free-solid-svg-icons';
+import image from '../../images/profileimage.jpg';
 
 export const About = () => {
   return (
@@ -13,13 +14,22 @@ export const About = () => {
         <br />
         <h1 className="about-title"> About </h1>
         <div className="space"> </div>
-        <p>
-          I'm a Full-stack Developer from Bogotá - Colombia. I have experience
-          in graphic design, character design, branding and advertising
-          creatives. Passionate on creating intuitive, responsive and good
-          looking user experiences through website development. Feel free to
-          take a look at my lates projects.
-        </p>
+
+        {/*Parte de foto mia + descripcion*/}
+        <section className="about-description">
+          <picture className="image">
+            <img src={image} alt="profile-pic" className="image-profile" />
+          </picture>
+          <p>
+            I'm a Full-stack Developer from Bogotá - Colombia. I have experience
+            in graphic design, character design, branding and advertising
+            creatives. Passionate on creating intuitive, responsive and good
+            looking user experiences through website development. Feel free to
+            take a look at my lates projects.
+          </p>
+        </section>
+
+        {/*Parte de habilidades que tengo como desarrollador/ lo que puedo aportar*/}
         <section className="abilities">
           <article className="ability-container">
             <FontAwesomeIcon icon={faLaptop} className="abilitiesIcon" />
