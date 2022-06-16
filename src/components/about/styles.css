@@ -44,10 +44,10 @@ section p.info a {
 
 div.space {
   border-top: 0.15rem #004056 solid;
-  width: 2%;
+  width: 3%;
   margin: auto;
   margin-top: 0.5rem;
-  margin-bottom: 4.5rem;
+  margin-bottom: 2rem;
 }
 
 section.abilities {
@@ -148,13 +148,15 @@ footer {
   section.abilities {
     grid-template-columns: 1fr 1fr;
     font-size: 0.8rem;
-    margin: auto 4rem;
+    margin: auto 1rem;
   }
 
   section.project-preview {
     grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
     grid-gap: 0rem;
-    padding: 1rem;
+    padding: 0.5rem;
     margin: auto;
   }
 
