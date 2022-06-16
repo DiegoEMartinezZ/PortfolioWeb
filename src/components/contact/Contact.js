@@ -1,10 +1,11 @@
 import React from "react";
+import "../about/styles.css";
 
 export const Contact = () => {
   return (
     <div className="contact-container">
       <section id="contact">
-        <h1> Contact </h1>
+        <h1 className="section-title"> Contact </h1>
         <div className="space"> </div>
         <p>
           Diego Ernesto Martínez Zambrano

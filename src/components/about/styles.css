@@ -28,17 +28,14 @@ h2.about-title {
   color: #004056;
 }
 
-article picture img.imageProfile {
-  border-radius: 100%;
-}
-
-p.about-info {
+p.info {
   padding: 0 40rem;
   text-align: center;
   color: #324b4b;
+  margin: 2rem 0;
 }
 
-section p.about-info a {
+section p.info a {
   cursor: pointer;
   font-style: none;
   font-weight: bolder;
@@ -55,9 +52,8 @@ div.space {
 
 section.abilities {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-gap: 1rem;
-  margin: auto;
+  grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
+  margin: auto 10rem;
 }
 
 .abilitiesIcon {
@@ -77,19 +73,58 @@ h2.ability-title {
 
 p.ability-description {
   font-size: 1rem;
-  margin: auto 30%;
+  margin: auto 15%;
   text-align: center;
   color: #324b4b;
 }
 
-h3 {
-  color: #324b4b;
-  font-weight: lighter;
-  margin: 0.8rem;
+section.project-description {
+  margin: 5rem;
 }
 
-h5 {
-  font-weight: lighter;
+section.project-preview {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 3rem;
+  padding: 5rem;
+  margin: auto;
+}
+
+article.project-section-preview {
+  color: #324b4b;
+  border-radius: 3rem;
+  margin: 0 5rem;
+  padding: 1rem;
+}
+
+h3.project-title {
+  color: #004056;
+  margin: 0.8rem;
+  font-size: 1.8rem;
+}
+
+section.links-container {
+  padding: 1rem;
+  margin: 1rem auto;
+}
+
+a.view-site,
+a.view-code {
+  padding: 0.5rem 1rem;
+  margin: 0 0.5rem;
+  border-radius: 0.5rem;
+  background-color: #004056;
+  color: #fff;
+}
+
+a.view-site:hover,
+a.view-code:hover {
+  background-color: #3ae7ff;
+  color: #004056;
+}
+
+section#contact {
+  margin: 5rem;
 }
 
 footer {
@@ -105,24 +140,34 @@ footer {
   border-top: 0.3rem solid #3ae7ff;
 }
 
-div.contact-container,
-div.projects-container {
-  display: none;
-}
-
 @media (max-width: 600px) {
-  p.about-info {
+  p.info {
     padding: 0 1rem;
   }
+
   section.abilities {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
     font-size: 0.8rem;
+    margin: auto 4rem;
   }
+
+  section.project-preview {
+    grid-template-columns: 1fr;
+    grid-gap: 0rem;
+    padding: 1rem;
+    margin: auto;
+  }
+
+  a.view-site,
+  a.view-code {
+    padding: 0.5rem 0.5rem;
+    margin: 0 0.5rem;
+    border-radius: 0.5rem;
+    background-color: #004056;
+    color: #fff;
+  }
+
   footer {
     font-size: 0.8rem;
-  }
-  div.contact-container,
-  div.projects-container {
-    display: none;
   }
 }

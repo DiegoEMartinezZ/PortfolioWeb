@@ -5,8 +5,8 @@ import { SocialMedia } from "../socialmedia/SocialMedia";
 export const NavBar = () => {
   return (
     <div className="navbar-container">
-      <ul className="navbar">
-        <a href="#about">
+      <ul className="navbar" id="navbar">
+        <a href="#navbar">
           <li> Home </li>
         </a>
 
