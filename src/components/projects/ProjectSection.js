@@ -9,12 +9,24 @@ export const ProjectSection = ({ title }) => {
         <h3 className="project-title"> {title} </h3>
         <div className="space"> </div>
         <section className="links-container">
-          <a href="/" className="view-site">
+          <button
+            href="/"
+            className="view-site"
+            onClick={() => {
+              alert("En mantenimiento");
+            }}
+          >
             <FontAwesomeIcon icon={faPlayCircle} /> App
-          </a>
-          <a href="/" className="view-code">
+          </button>
+          <button
+            href="/"
+            className="view-code"
+            onClick={() => {
+              alert("En mantenimiento");
+            }}
+          >
             <FontAwesomeIcon icon={faCode} /> Code
-          </a>
+          </button>
         </section>
       </article>
     </div>
