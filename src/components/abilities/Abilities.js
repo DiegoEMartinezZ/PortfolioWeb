@@ -14,28 +14,26 @@ export const Abilities = () => {
       <section className="abilities">
         <AbilitiesSection
           icon={faLaptop}
-          title="Responsive"
-          description="  Each one of my apps can be use in all kind of devices regardless of
-          his size. From big to small devices."
+          title="Responsivo"
+          description="Cada una de las aplicaciones que realizo pueden ser vistas desde pequeños a grandes dispositivos"
         />
 
         <AbilitiesSection
           icon={faCircleCheck}
-          title="Effective"
-          description="Achieved his objective to solve a problem that the user has in a
-          quick and efficient way."
+          title="Efectiva"
+          description="Logran el objetivo por el cual fueron diseñadas, llevando al usuario por una ruta clara e intuitiva"
         />
 
         <AbilitiesSection
           icon={faWandSparkles}
-          title="Innovate"
-          description="Excellent interaction with the users. UX/UI design."
+          title="Innovador"
+          description="Excelente interacción con el ususario. Diseño UI/UX"
         />
 
         <AbilitiesSection
           icon={faPalette}
-          title="Good-Looking "
-          description="Great combination of colors creating a more familiar experience."
+          title="Llamativo"
+          description="Gran combinación de colores que crean una experiencia agradable"
         />
       </section>
     </div>

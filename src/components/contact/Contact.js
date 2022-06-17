@@ -5,9 +5,9 @@ export const Contact = () => {
   return (
     <div className="contact-container">
       <section id="contact">
-        <h1 className="section-title"> Contact </h1>
+        <h1 className="section-title"> Contacto </h1>
         <div className="space"> </div>
-        <p>
+        <p className="contact-description ">
           Diego Ernesto Martínez Zambrano
           <br />
           diermaza.23@gmail.com

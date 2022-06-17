@@ -1,6 +1,7 @@
 import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCode, faPlayCircle } from "@fortawesome/free-solid-svg-icons";
+import { faPlayCircle } from "@fortawesome/free-solid-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export const ProjectSection = ({ title }) => {
   return (
@@ -16,7 +17,7 @@ export const ProjectSection = ({ title }) => {
               alert("En mantenimiento");
             }}
           >
-            <FontAwesomeIcon icon={faPlayCircle} /> App
+            <FontAwesomeIcon icon={faPlayCircle} /> Probar
           </button>
           <button
             href="/"
@@ -25,7 +26,7 @@ export const ProjectSection = ({ title }) => {
               alert("En mantenimiento");
             }}
           >
-            <FontAwesomeIcon icon={faCode} /> Code
+            <FontAwesomeIcon icon={faGithub} /> Código
           </button>
         </section>
       </article>

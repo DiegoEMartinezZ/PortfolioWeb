@@ -7,13 +7,13 @@ export const Projects = () => {
     <div className="projects-container" id="projects">
       <section className="projects">
         <br />
-        <h1 className="section-title"> Projects </h1>
+        <h1 className="section-title"> Portafolio </h1>
         <div className="space"> </div>
         <section className="project-description">
           <p className="info">
-            My most current projects in which I applied all the knowledge that I
-            had, feel free to comment, make a suggestion or to ask anything
-            about this projects.
+            En esta sección verán mis proyectos más recientes en los que aplico
+            los conocimientos que tengo frente al desarrollo web. Cualquier
+            comentario, sugerencia o pregunta es más que bienvenida.
           </p>
           <section className="project-preview">
             <ProjectSection title="PokéQuiz" />

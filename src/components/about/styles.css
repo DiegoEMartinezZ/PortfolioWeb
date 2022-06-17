@@ -14,12 +14,14 @@ div.about-container {
 h1.section-title {
   margin: 0 2rem;
   font-size: 2.5rem;
-  margin-top: 3rem;
+  margin-top: 5rem;
   color: #004056;
 }
 
-section.about-description {
-  margin: 5rem;
+section.about-description,
+section.project-description,
+section.contact-description {
+  margin: 1rem;
 }
 
 h2.about-title {
@@ -32,7 +34,7 @@ p.info {
   padding: 0 40rem;
   text-align: center;
   color: #324b4b;
-  margin: 2rem 0;
+  margin: 1rem 0;
 }
 
 section p.info a {
@@ -54,6 +56,8 @@ section.abilities {
   display: grid;
   grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
   margin: auto 10rem;
+  margin-top: 2rem;
+  padding: 3rem;
 }
 
 .abilitiesIcon {
@@ -76,10 +80,6 @@ p.ability-description {
   margin: auto 15%;
   text-align: center;
   color: #324b4b;
-}
-
-section.project-description {
-  margin: 5rem;
 }
 
 section.project-preview {
@@ -125,6 +125,7 @@ button.view-code:hover {
 
 section#contact {
   margin: 5rem;
+  margin-bottom: 8rem;
 }
 
 footer {

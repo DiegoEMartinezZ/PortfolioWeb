@@ -6,22 +6,22 @@ export const About = () => {
     <div className="about-container" id="about">
       <section className="about">
         <br />
-        <h1 className="section-title"> About </h1>
+        <h1 className="section-title"> Acerca de </h1>
         <div className="space"> </div>
 
         {/*Parte de foto mia + descripcion*/}
         <section className="about-description">
-          <h2 className="about-title"> Hello World! </h2>
           <p className="info">
-            My name is Diego Martínez, I'm a Full-stack Developer from Bogotá -
-            Colombia. I have experience in graphic design, character design,
-            branding and advertising creatives. Passionate on creating
-            intuitive, responsive and good looking user experiences through
-            website development.
+            Mi nombre es Diego Martínez, soy Desarrollador web Full - Stack. Me
+            encuentro ubicado en Bogotá - Colombia. Tengo experiencia en diseño
+            gráfico, ilustración digital, editorial y piezas para redes e
+            impresas. Me apasiona crear experiencias de usuario a través del
+            desarrollo web y que sean intuitivas, responsivas y sean atractivas
+            visualmente.
             <br />
             <br />
-            Feel free to take a look at my lates{" "}
-            <a href="#projects"> projects. </a>
+            Te invito a que veas más de mis
+            <a href="#projects"> proyectos. </a>
           </p>
         </section>
         <Abilities />

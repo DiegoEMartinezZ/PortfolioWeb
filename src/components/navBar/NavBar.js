@@ -7,19 +7,19 @@ export const NavBar = () => {
     <div className="navbar-container">
       <ul className="navbar" id="navbar">
         <a href="#navbar">
-          <li> Home </li>
+          <li> Inicio </li>
         </a>
 
         <a href="#about">
-          <li> About </li>
+          <li> Acerca de </li>
         </a>
 
         <a href="#projects">
-          <li> Portfolio </li>
+          <li> Portafolio </li>
         </a>
 
         <a href="#contact">
-          <li> Contact </li>
+          <li> Contacto </li>
         </a>
         <SocialMedia />
       </ul>
