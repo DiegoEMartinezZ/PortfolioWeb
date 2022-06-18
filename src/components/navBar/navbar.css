@@ -60,7 +60,7 @@ div.socialmedia-container li a:hover {
 
 @media (max-width: 600px) {
   div ul.navbar {
-    width: 100%;
+    width: 100vw;
     font-size: 0.8rem;
   }
 }
