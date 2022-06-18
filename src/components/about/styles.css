@@ -220,7 +220,7 @@ footer {
   }
 
   section.abilities {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     font-size: 0.8rem;
     margin: auto;
   }
@@ -261,6 +261,5 @@ footer {
 
   footer {
     font-size: 0.8rem;
-    width: 100vw;
   }
 }
