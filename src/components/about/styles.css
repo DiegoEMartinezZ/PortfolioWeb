@@ -261,5 +261,6 @@ footer {
 
   footer {
     font-size: 0.8rem;
+    width: 100vw;
   }
 }
