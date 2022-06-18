@@ -1,5 +1,5 @@
-import React from "react";
-import { Abilities } from "../abilities/Abilities";
+import React from 'react';
+import { Abilities } from '../abilities/Abilities';
 
 export const About = () => {
   return (

@@ -52,6 +52,12 @@ div.socialmedia-container li a:hover {
   color: #3ae7ff;
 }
 
+@media (max-width: 1200) {
+  div ul.navbar {
+    width: 100vw;
+  }
+}
+
 @media (max-width: 600px) {
   div ul.navbar {
     width: 100vw;
