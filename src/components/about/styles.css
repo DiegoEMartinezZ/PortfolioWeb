@@ -67,7 +67,6 @@ section.abilities {
 article.ability-container {
   margin: 1rem;
   padding: 1rem;
-  border: #3ae7ff solid 1px;
   border-radius: 5rem;
 }
 
@@ -174,11 +173,7 @@ footer {
     margin: auto 20%;
   }
   article.project-section-preview {
-    color: #fff;
-    border: #3ae7ff solid 1px;
-    border-radius: 3rem;
-    margin: 5rem 10rem;
-    padding: 1rem;
+    margin: 5rem 8rem;
   }
 }
 
@@ -214,6 +209,9 @@ footer {
   footer {
     font-size: 0.8rem;
   }
+  article.project-section-preview {
+    margin: 5rem 8rem;
+  }
 }
 
 @media (max-width: 600px) {
@@ -242,6 +240,10 @@ footer {
     margin: auto;
   }
 
+  article.project-section-preview {
+    margin: 5rem 1rem;
+  }
+
   button.view-site,
   button.view-code {
     padding: 0.5rem 0.5rem;
@@ -251,8 +253,13 @@ footer {
     color: #fff;
   }
 
+  section#contact {
+    font-size: 0.8rem;
+    margin: 1rem;
+    margin-bottom: 8rem;
+  }
+
   footer {
     font-size: 0.8rem;
-    width: 100vw;
   }
 }
