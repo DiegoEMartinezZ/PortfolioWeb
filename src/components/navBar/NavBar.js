@@ -7,7 +7,6 @@ export const NavBar = () => {
   return (
     <div className="navbar-container">
       <ul className="navbar" id="navbar">
-        <NavbarBtn linkSection="#navbar" title="Inicio" />
         <NavbarBtn linkSection="#about" title="Acerca de" />
         <NavbarBtn linkSection="#projects" title="Portafolio" />
         <NavbarBtn linkSection="#contact" title="Contacto" />
