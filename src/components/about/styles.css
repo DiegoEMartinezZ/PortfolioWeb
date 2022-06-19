@@ -22,12 +22,6 @@ h1.section-title {
   color: #3ae7ff;
 }
 
-section.about-description,
-section.project-description,
-section.contact-description {
-  margin: 1rem;
-}
-
 h2.about-title {
   font-size: 3rem;
   margin: 2rem 0;
@@ -36,9 +30,13 @@ h2.about-title {
 
 p.info {
   padding: 0 40rem;
-  text-align: center;
   color: #fff;
-  margin: 1rem 0;
+  margin: 5rem 0;
+}
+
+h4.about-important {
+  color: #3ae7ff;
+  font-size: 1.1rem;
 }
 
 section p.info a {
@@ -76,7 +74,7 @@ article.ability-container {
   padding: 1.2rem;
   clip-path: circle(45% at 50% 50%);
   background-color: #3ae7ff;
-  color: #324b4b;
+  color: #000;
 }
 
 h2.ability-title {
@@ -94,7 +92,7 @@ p.ability-description {
 
 section.project-preview {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-gap: 3rem;
   padding: 5rem;
   margin: auto;
@@ -102,7 +100,6 @@ section.project-preview {
 
 article.project-section-preview {
   color: #fff;
-  border: #3ae7ff solid 1px;
   border-radius: 3rem;
   margin: 5rem 30rem;
   padding: 1rem;
@@ -130,6 +127,7 @@ button.view-code {
 
 button.view-site:hover,
 button.view-code:hover {
+  cursor: pointer;
   background-color: #3ae7ff;
   color: #004056;
 }
@@ -154,7 +152,7 @@ footer {
 
 @media (min-width: 1200px) {
   p.info {
-    margin: 0 30%;
+    margin: 2.5rem 30%;
   }
 
   p.ability-description {
@@ -175,6 +173,12 @@ footer {
   article.project-section-preview {
     margin: 5rem 8rem;
   }
+  section.abilities {
+    display: grid;
+    grid-template-columns: 0.5fr;
+    margin-top: 2rem;
+    padding: 1rem;
+  }
 }
 
 @media (min-width: 600px) {
@@ -183,17 +187,9 @@ footer {
   }
 
   section.abilities {
-    grid-template-columns: 1fr 1fr;
     font-size: 0.8rem;
-    margin: auto 0.5%;
-  }
-
-  section.project-preview {
-    grid-template-columns: 1fr;
-    align-items: center;
+    grid-template-rows: 1fr;
     justify-content: center;
-    grid-gap: 0rem;
-    padding: 0.5rem;
     margin: auto;
   }
 

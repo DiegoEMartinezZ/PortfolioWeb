@@ -1,10 +1,11 @@
-import React from "react";
+import React from 'react';
 import {
+  faBehance,
   faGithub,
   faInstagram,
   faLinkedin,
-} from "@fortawesome/free-brands-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+} from '@fortawesome/free-brands-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export const SocialMedia = () => {
   return (
@@ -34,6 +35,15 @@ export const SocialMedia = () => {
           rel="noopener noreferrer"
         >
           <FontAwesomeIcon icon={faInstagram} />
+        </a>
+      </li>
+      <li>
+        <a
+          href="https://www.behance.net/srmiel"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FontAwesomeIcon icon={faBehance} />
         </a>
       </li>
     </div>
