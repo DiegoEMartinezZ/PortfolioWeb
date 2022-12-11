@@ -1,17 +1,16 @@
 import React from 'react';
 import '../navBar/navbar.css';
-import { SocialMedia } from '../socialmedia/SocialMedia';
-import { NavbarBtn } from './NavbarBtn';
+import { NavBarButtons } from './NavBarButtons';
 
 export const NavBar = () => {
   return (
-    <div className="navbar-container">
-      <ul className="navbar" id="navbar">
-        <NavbarBtn linkSection="#about" title="Acerca de" />
-        <NavbarBtn linkSection="#projects" title="Portafolio" />
-        <NavbarBtn linkSection="#contact" title="Contacto" />
-        <SocialMedia />
-      </ul>
-    </div>
+    <>
+      <header className="navbar-container">
+        <h4> Logo </h4>
+        <div className="navbar-container-right">
+          <NavBarButtons />
+        </div>
+      </header>
+    </>
   );
 };
