@@ -1,0 +1,17 @@
+ol.socialMedia-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  margin: 5rem;
+  padding: 2rem;
+}
+
+ol.socialMedia-container li a {
+  cursor: pointer;
+  margin: 5rem;
+  color: #3ae7ff;
+}
+
+ol.socialMedia-container li a:hover {
+  color: #fff;
+}
