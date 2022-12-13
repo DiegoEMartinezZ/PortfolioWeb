@@ -1,69 +1,37 @@
 header.navbar-container {
   display: flex;
-  margin: 2rem 5rem;
   justify-content: space-between;
-  color: #fff;
+  color: #3ae7ff;
+  margin: 1rem;
+  padding: 1rem 3rem;
+}
+
+header.navbar-container h4 {
+  cursor: pointer;
+  font-weight: lighter;
+}
+
+header.navbar-container h4:hover {
+  color: #f9f871;
 }
 
 header div.navbar-container-right {
   display: flex;
 }
 
-header div.navbar-container-right div.navbar-buttons {
+header div.navbar-container-right section.navbar-buttons {
   display: flex;
   align-items: center;
 }
 
-header div.navbar-container-right div.navbar-buttons a {
+header div.navbar-container-right section.navbar-buttons a {
   list-style: none;
-  margin: 0 1rem;
-  color: #3ae7ff;
   text-decoration: none;
-}
-
-header div.navbar-container-right div.navbar-buttons a:hover {
-  cursor: pointer;
+  margin: 0 1rem;
   color: #fff;
 }
 
-div ul li {
-  padding: 0.5rem;
-  color: #fff;
-}
-
-div ul li:hover {
-  cursor: pointer;
-  padding: 0.5rem;
-  border-radius: 0.5rem;
-  color: #3ae7ff;
-}
-
-div.socialmedia-container {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  font-size: 1.2rem;
-}
-
-div.socialmedia-container li a {
-  color: #fff;
-  font-size: 1rem;
-}
-
-div.socialmedia-container li a:hover {
+header div.navbar-container-right section.navbar-buttons a:hover {
   cursor: pointer;
   color: #3ae7ff;
-}
-
-@media (max-width: 1200) {
-  div ul.navbar {
-    width: 100vw;
-  }
-}
-
-@media (max-width: 600px) {
-  div ul.navbar {
-    width: 100vw;
-    font-size: 0.8rem;
-  }
 }

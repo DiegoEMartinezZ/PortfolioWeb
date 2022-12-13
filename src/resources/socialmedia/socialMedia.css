@@ -2,16 +2,17 @@ ol.socialMedia-container {
   display: flex;
   justify-content: center;
   flex-wrap: nowrap;
-  margin: 5rem;
+  margin: 1rem;
   padding: 2rem;
 }
 
 ol.socialMedia-container li a {
   cursor: pointer;
   margin: 5rem;
-  color: #3ae7ff;
+  color: #fff;
 }
 
 ol.socialMedia-container li a:hover {
-  color: #fff;
+  color: #3ae7ff;
+  border-bottom: #3ae7ff 2px solid;
 }

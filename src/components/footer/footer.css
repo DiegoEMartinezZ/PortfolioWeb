@@ -1,3 +1,4 @@
-footer.footer-container {
+footer.footer-container h5 {
   color: #fff;
+  font-weight: lighter;
 }

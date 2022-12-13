@@ -4,6 +4,11 @@ section.description-container {
 }
 
 h3.description {
+  text-align: center;
+  margin: 0 20%;
+  padding: 2rem;
+  font-weight: lighter;
+  font-size: 1.8rem;
   color: #fff;
 }
 
