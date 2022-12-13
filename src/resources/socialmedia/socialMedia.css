@@ -16,3 +16,21 @@ ol.socialMedia-container li a:hover {
   color: #3ae7ff;
   border-bottom: #3ae7ff 2px solid;
 }
+
+@media (min-width: 360px) {
+  ol.socialMedia-container {
+    padding: 1rem;
+  }
+  ol.socialMedia-container li a {
+    margin: 2rem;
+  }
+}
+
+@media (max-width: 1920px) {
+  ol.socialMedia-container {
+    padding: 1.5rem;
+  }
+  ol.socialMedia-container li a {
+    margin: 4rem;
+  }
+}

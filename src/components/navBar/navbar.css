@@ -9,6 +9,7 @@ header.navbar-container {
 header.navbar-container h4 {
   cursor: pointer;
   font-weight: lighter;
+  margin: 0 1rem;
 }
 
 header.navbar-container h4:hover {
@@ -34,4 +35,11 @@ header div.navbar-container-right section.navbar-buttons a {
 header div.navbar-container-right section.navbar-buttons a:hover {
   cursor: pointer;
   color: #3ae7ff;
+}
+
+@media (min-width: 360px) {
+  header.navbar-container {
+    margin: 1rem;
+    padding: 1rem 0;
+  }
 }

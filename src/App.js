@@ -1,17 +1,16 @@
 import "./App.css";
-import { About } from "./components/about/About";
-import { NavBar } from "./components/navBar/NavBar";
-import { Footer } from "./components/footer/Footer";
-import { SocialMedia } from "./resources/socialmedia/SocialMedia";
 
+import { Home } from "./pages/home/Home";
+import { Projects } from "./pages/projects/Projects";
+import { AboutMe } from "./pages/aboutMe/AboutMe";
+import { Route, Routes } from "react-router-dom";
 function App() {
   return (
-    <div className="App">
-      <NavBar />
-      <About />
-      <SocialMedia />
-      <Footer />
-    </div>
+    <Routes>
+      <Route exact path="/" element={<Home />} />
+      <Route path="/Projects" element={<Projects />} />
+      <Route path="/AboutMe" element={<AboutMe />} />
+    </Routes>
   );
 }
 

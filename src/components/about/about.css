@@ -1,6 +1,6 @@
 section.description-container {
-  margin: 10rem;
-  padding: 5rem;
+  margin: auto;
+  padding: 12rem;
 }
 
 h3.description {
@@ -13,5 +13,24 @@ h3.description {
 }
 
 nav.buttons-container {
-  margin: 1rem 2rem;
+  margin: auto;
+}
+
+@media (min-width: 360px) {
+  section.description-container {
+    padding: 0.5rem;
+    margin: 3rem 0;
+  }
+  h3.description {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 1920px) {
+  section.description-container {
+    margin: 10rem 0;
+  }
+  h3.description {
+    font-size: 1.5rem;
+  }
 }

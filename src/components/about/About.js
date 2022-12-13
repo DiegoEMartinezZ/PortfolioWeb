@@ -1,6 +1,5 @@
 import React from "react";
 import "../about/about.css";
-
 import { Buttons } from "../../resources/buttons/Buttons";
 
 export const About = () => {
@@ -12,8 +11,9 @@ export const About = () => {
           en frontend, diseñador gráfico e ilustrador digital.
         </h3>
         <nav className="buttons-container">
-          <Buttons name={"Proyectos"} />
-          <Buttons name={"Acerca de mi"} />
+          <Buttons name={"Proyectos"} page={"/Projects"} />
+
+          <Buttons name={"Acerca de mi"} page={"/AboutMe"} />
         </nav>
       </section>
     </>
