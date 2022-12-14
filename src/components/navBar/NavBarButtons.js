@@ -12,13 +12,13 @@ export const NavBarButtons = () => {
   return (
     <>
       <section className="navbar-buttons">
-        <a href="/">
+        <a href="/portfolio-web">
           <FontAwesomeIcon icon={faGlobe} />
         </a>
-        <a href="/">
+        <a href="/portfolio-web">
           <FontAwesomeIcon icon={faMoon} onClick={dayMode} />
         </a>
-        <a href="/">
+        <a href="/portfolio-web">
           <FontAwesomeIcon icon={faBars} onClick={openMenu} />
         </a>
       </section>

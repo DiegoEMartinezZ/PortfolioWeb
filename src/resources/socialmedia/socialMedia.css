@@ -1,36 +1,37 @@
-ol.socialMedia-container {
+ul.socialMedia-container {
   display: flex;
   justify-content: center;
   flex-wrap: nowrap;
+  list-style: none;
   margin: 1rem;
   padding: 2rem;
 }
 
-ol.socialMedia-container li a {
+ul.socialMedia-container li a {
   cursor: pointer;
   margin: 5rem;
   color: #fff;
 }
 
-ol.socialMedia-container li a:hover {
+ul.socialMedia-container li a:hover {
   color: #3ae7ff;
   border-bottom: #3ae7ff 2px solid;
 }
 
-@media (min-width: 360px) {
-  ol.socialMedia-container {
+@media only screen and (min-width: 320px) and (max-width: 1199.98px) {
+  ul.socialMedia-container {
     padding: 1rem;
   }
-  ol.socialMedia-container li a {
-    margin: 2rem;
+  ul.socialMedia-container li a {
+    margin: 1rem;
   }
 }
 
-@media (max-width: 1920px) {
-  ol.socialMedia-container {
+@media (min-width: 1200px) {
+  ul.socialMedia-container {
     padding: 1.5rem;
   }
-  ol.socialMedia-container li a {
+  ul.socialMedia-container li a {
     margin: 4rem;
   }
 }

@@ -3,7 +3,7 @@ section.description-container {
   padding: 12rem;
 }
 
-h3.description {
+p.description {
   text-align: center;
   margin: 0 20%;
   padding: 2rem;
@@ -16,21 +16,22 @@ nav.buttons-container {
   margin: auto;
 }
 
-@media (min-width: 360px) {
+@media only screen and (min-width: 320px) and (max-width: 1199.98px) {
   section.description-container {
-    padding: 0.5rem;
-    margin: 3rem 0;
+    padding: 0.05rem;
+    font-size: 0.02rem;
+    margin: 0.05rem;
   }
-  h3.description {
+  p.description {
     font-size: 1rem;
   }
 }
 
-@media (max-width: 1920px) {
+@media (min-width: 1200px) {
   section.description-container {
     margin: 10rem 0;
   }
-  h3.description {
+  p.description {
     font-size: 1.5rem;
   }
 }

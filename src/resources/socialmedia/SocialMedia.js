@@ -11,7 +11,7 @@ import { SocialMediaIcon } from "./SocialMediaIcon";
 export const SocialMedia = () => {
   return (
     <>
-      <ol className="socialMedia-container">
+      <ul className="socialMedia-container">
         <SocialMediaIcon
           url={"https://github.com/DiegoEMartinezZ"}
           image={faGithub}
@@ -28,7 +28,7 @@ export const SocialMedia = () => {
           url={"https://www.instagram.com/lowoncyan_"}
           image={faInstagram}
         />
-      </ol>
+      </ul>
     </>
   );
 };

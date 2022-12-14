@@ -6,10 +6,10 @@ export const About = () => {
   return (
     <>
       <section className="description-container">
-        <h3 className="description">
+        <p className="description">
           Mi nombre es Diego Martínez, soy desarrollador web fullstack enfocado
           en frontend, diseñador gráfico e ilustrador digital.
-        </h3>
+        </p>
         <nav className="buttons-container">
           <Buttons name={"Proyectos"} page={"/Projects"} />
 
