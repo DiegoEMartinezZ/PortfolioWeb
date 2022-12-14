@@ -7,7 +7,7 @@ import "../BackToHome/backToHome.css";
 export const BackToHome = () => {
   return (
     <>
-      <a href="/" className="backToHome">
+      <a href="/portfolio-web" className="backToHome">
         <FontAwesomeIcon icon={faArrowAltCircleLeft} />
       </a>
     </>
