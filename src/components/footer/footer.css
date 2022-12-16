@@ -8,3 +8,15 @@ footer.footer-container h5 {
   color: #fff;
   font-weight: lighter;
 }
+
+@media only screen and (min-width: 320px) and (max-width: 1199.98px) {
+  footer.footer-container h5 {
+    position: relative;
+  }
+}
+
+@media (min-width: 1200px) {
+  footer.footer-container h5 {
+    position: relative;
+  }
+}

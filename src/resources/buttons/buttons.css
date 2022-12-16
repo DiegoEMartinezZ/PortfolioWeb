@@ -2,7 +2,7 @@
   text-decoration: none;
 }
 
-button {
+button.button-PortfolioPages {
   display: block;
   font-size: 1.2rem;
   font-style: normal;
@@ -12,12 +12,12 @@ button {
   width: 25%;
 }
 
-button:hover {
+button.button-PortfolioPages:hover {
   background-color: #3ae7ff;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 1199.98px) {
-  button {
+  button.button-PortfolioPages {
     margin: 0.5rem auto;
     padding: 0.5rem;
     font-size: 1rem;
@@ -26,7 +26,7 @@ button:hover {
 }
 
 @media (min-width: 1200px) {
-  button {
+  button.button-PortfolioPages {
     font-size: 1.3rem;
     width: 20%;
   }

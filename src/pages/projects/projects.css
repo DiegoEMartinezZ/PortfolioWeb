@@ -1,4 +1,31 @@
-h1 {
+section.project-container {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  margin: 3rem;
+}
+
+section.project-container h3 {
   color: #fff;
-  font-size: 24rem;
+  text-align: center;
+  margin: 1rem;
+}
+
+section img.project-img {
+  display: block;
+  margin: auto;
+  background-color: white;
+  width: 50%;
+}
+
+section.project-container div.buttons-container {
+  display: flex;
+  justify-content: center;
+}
+
+section.project-container button {
+  margin: 1rem;
+  padding: 0.2rem;
+  width: 10%;
 }

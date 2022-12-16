@@ -1,13 +1,19 @@
-import React from "react";
-import "../projects/projects.css";
+import React from 'react';
+import '../projects/projects.css';
+import prueba from '../../images/prueba.jpg';
 
-import { BackToHome } from "../../resources/BackToHome/BackToHome";
+import { NavBar } from '../../components/navBar/NavBar';
+import { ProjectBox } from '../../components/projectBox/ProjectBox';
+import { Footer } from '../../components/footer/Footer';
 
 export const Projects = () => {
   return (
     <>
-      <BackToHome />
-      <h1> Vista de proyectos </h1>
+      <NavBar />
+      <ProjectBox titleProject={'To-Do List'} imageProject={prueba} />
+      <ProjectBox titleProject={'MusicWeather'} imageProject={prueba} />
+      <ProjectBox titleProject={'SaveYourMoney'} imageProject={prueba} />
+      <Footer />
     </>
   );
 };

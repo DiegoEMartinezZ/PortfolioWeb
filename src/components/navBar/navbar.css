@@ -6,8 +6,14 @@ header.navbar-container {
   padding: 1rem 3rem;
 }
 
-header.navbar-container h4 {
+header.navbar-container .back-to-home {
+  text-decoration: none;
+  color: #fff;
+}
+
+header.navbar-container .back-to-home h4 {
   cursor: pointer;
+  text-decoration: none;
   font-weight: lighter;
   margin: 0 1rem;
 }
