@@ -3,10 +3,10 @@ section.project-container {
   flex-wrap: nowrap;
   flex-direction: column;
   justify-content: center;
-  margin: 3rem;
+  margin: 6rem;
 }
 
-section.project-container h3 {
+section.project-container h2 {
   color: #fff;
   text-align: center;
   margin: 1rem;
@@ -15,7 +15,6 @@ section.project-container h3 {
 section img.project-img {
   display: block;
   margin: auto;
-  background-color: white;
   width: 50%;
 }
 
@@ -28,4 +27,47 @@ section.project-container button {
   margin: 1rem;
   padding: 0.2rem;
   width: 10%;
+}
+
+div.buttons-container button {
+  border-radius: 2rem;
+  padding: 0.5rem;
+  margin: 1.3rem;
+}
+
+div.buttons-container button.button-code {
+  background-color: #fff;
+}
+
+div.buttons-container button.button-code:hover {
+  cursor: pointer;
+  background-color: #f9f871;
+}
+
+div.buttons-container button.button-codePreview:hover,
+div.buttons-container button.button-codeGithub:hover {
+  cursor: pointer;
+  background-color: #3ae7ff;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1199.98px) {
+  section.project-container h2 {
+    margin: auto;
+    margin-bottom: 0.5rem;
+  }
+
+  section img.project-img {
+    width: 100%;
+  }
+  section.project-container div.buttons-container {
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+
+  section.project-container button {
+    margin: auto;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+    width: 70%;
+  }
 }

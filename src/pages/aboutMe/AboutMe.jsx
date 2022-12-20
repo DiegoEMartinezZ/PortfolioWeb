@@ -1,10 +1,12 @@
-import React from "react";
-import "../aboutMe/aboutMe.css";
+import React from 'react';
+import '../aboutMe/aboutMe.css';
 
 export const AboutMe = () => {
   return (
     <>
-      <h1> Vista de Acerca de mí</h1>
+      <section className="aboutme-container">
+        <h1> VISTA DE ACERCA DE MI </h1>
+      </section>
     </>
   );
 };
