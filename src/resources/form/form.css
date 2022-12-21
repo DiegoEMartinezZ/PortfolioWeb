@@ -1,0 +1,30 @@
+section.contactUs-container form.form-container {
+  color: #000;
+  background-color: whitesmoke;
+  width: 50%;
+  margin: auto;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+section.contactUs-container form.form-container label {
+  font-weight: lighter;
+}
+
+section.contactUs-container form.form-container input,
+section.contactUs-container form.form-container textarea {
+  margin: 0.2rem 0;
+  background-color: transparent;
+  color: #000;
+  outline: none;
+  border: 0;
+  border-bottom: #000 1px solid;
+}
+
+section.contactUs-container div.contactus-info-container h3 {
+  color: #fff;
+}
+
+section.contactUs-container div.contactus-info-container p {
+  color: #fff;
+}

@@ -1,12 +1,18 @@
 import React from 'react';
+import { Footer } from '../../components/footer/Footer';
+import { NavBar } from '../../components/navBar/NavBar';
+import { OwnDescription } from '../../components/ownDescription/OwnDescription';
+import { Form } from '../../resources/form/Form';
+
 import '../aboutMe/aboutMe.css';
 
 export const AboutMe = () => {
   return (
     <>
-      <section className="aboutme-container">
-        <h1> VISTA DE ACERCA DE MI </h1>
-      </section>
+      <NavBar />
+      <OwnDescription />
+      <Form />
+      <Footer />
     </>
   );
 };
