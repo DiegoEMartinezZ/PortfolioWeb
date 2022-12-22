@@ -8,7 +8,7 @@ export const NavBar = () => {
     <>
       <header className="navbar-container">
         <Link to="/portfolio-web" className="back-to-home">
-          <h4> DEMZ </h4>
+          <h4> HOME </h4>
         </Link>
         <div className="navbar-container-right">
           <NavBarButtons />

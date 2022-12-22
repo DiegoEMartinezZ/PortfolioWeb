@@ -7,19 +7,14 @@ export const Form = () => {
     <>
       <section className="contactUs-container">
         <form className="form-container">
-          <h2> Deja tus datos </h2>
-          <label> Nombre: </label>
-          <br />
-          <input type="text" placeholder="Tu nombre ..." />
-          <br />
-          <label> Email: </label>
-          <br />
-          <input type="email" placeholder="tucorreo@gmail.com ..." />
-          <br />
-          <label> Mensaje: </label>
-          <br />
-          <textarea name="comment">Escribe tu comentario ... </textarea>
-          <br />
+          <h2> Trabajemos juntos </h2>
+
+          <input type="text" placeholder="Nombre completo" />
+
+          <input type="email" placeholder="Email" />
+
+          <textarea name="comment" placeholder="Escribe tu idea"></textarea>
+
           <button> Enviar </button>
         </form>
         <ContactUs />
