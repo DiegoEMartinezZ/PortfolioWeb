@@ -6,19 +6,28 @@ export const OwnDescription = () => {
     <>
       <section className="ownDescription-container">
         <p className="p-container">
-          Desarrollador Web Full-Stack con conocimientos en diseño gráfico e
-          ilustración digital, cuento con más de 4 años de experiencia en
-          desarrollo de piezas gráficas, elaboración de piezas editoriales,
-          diseño UI/ UX, Front-End y diagramación de textos para empresas
-          privadas, empresas públicas y ONGs, creación y diseño de personajes
-          para eventos, empresas y emprendimientos así como en ilustraciones
-          digitales aplicadas en distintos medios (Digitales o impresos).
+          <h2 className="title-ownDescription"> Acerca de mi </h2>
+          <br />
+          Soy desarrollador web full-Stack enfocado en frontend con
+          conocimientos en diseño gráfico e ilustración digital. Cuento con más
+          de 4 años de experiencia en desarrollo de piezas gráficas, elaboración
+          de piezas editoriales, diseño UI/ UX, frontend y diagramación de
+          textos para empresas privadas, empresas públicas y ONGs. También tengo
+          experiencia en diseño de personajes para: Animación, identidad de una
+          empresa y eventos. También hago ilustraciones que puedan ser aplicadas
+          en distintos medios tales como redes sociales o medios impresos.
           <br />
           <br />
-          Como desarrollador web creo aplicaciones que sean llamativas y
-          funcionales logrando solucionar un problema que tenga el usuario. Me
-          gusta aprender e ir mejorando las habilidades que adquiero siempre
-          dando lo mejor de mi y cumpliendo las metas que me propongo alcanzar.
+          Como desarrollador web creo aplicaciones que sean llamativas,
+          funcionales e interactivas que den solución a uno o más problemas que
+          tenga el usuario. Me enfoco en mejorar las habilidades que tengo y en
+          aprender aquello que desconozco y de lo cual pueda sacar provecho.
+          <br />
+          <br />
+          <strong>
+            Busco siempre dar lo mejor de mi cumpliendo las metas que me
+            propongo alcanzar a nivel profesional y personal.
+          </strong>
         </p>
       </section>
     </>

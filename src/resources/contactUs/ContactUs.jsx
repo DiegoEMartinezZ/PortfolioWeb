@@ -5,9 +5,14 @@ export const ContactUs = () => {
     <>
       <div className="contactus-info-container">
         <h3> Contacto </h3>
-        <p> diermaza.23@gmail.com </p>
+        <br />
+        <p>
+          <strong> diermaza.23@gmail.com</strong>
+        </p>
         <p> (+57) 300 302 7598</p>
-        <p> Bogotá - Colombia</p>
+        <p>
+          <em>Bogotá - Colombia (GMT-5) </em>
+        </p>
       </div>
     </>
   );

@@ -26,6 +26,7 @@ section.contactUs-container form.form-container input,
 section.contactUs-container form.form-container textarea {
   background-color: transparent;
   margin: 25px;
+  padding: 0.5rem;
   color: #000;
   outline: none;
   border: 0;
