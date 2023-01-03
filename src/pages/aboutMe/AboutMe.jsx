@@ -2,9 +2,8 @@ import React from 'react';
 import { Footer } from '../../components/footer/Footer';
 import { NavBar } from '../../components/navBar/NavBar';
 import { OwnDescription } from '../../components/ownDescription/OwnDescription';
+import { ContactUs } from '../../resources/contactUs/ContactUs';
 import { Form } from '../../resources/form/Form';
-
-import '../aboutMe/aboutMe.css';
 
 export const AboutMe = () => {
   return (
@@ -12,6 +11,7 @@ export const AboutMe = () => {
       <NavBar />
       <OwnDescription />
       <Form />
+      <ContactUs />
       <Footer />
     </>
   );

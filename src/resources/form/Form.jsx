@@ -1,5 +1,5 @@
 import React from 'react';
-import { ContactUs } from '../contactUs/ContactUs';
+
 import '../form/form.css';
 
 export const Form = () => {
@@ -17,7 +17,6 @@ export const Form = () => {
           <textarea name="comment" placeholder="Escribe tu idea"></textarea>
           <button onClick={sendRequest}> Enviar </button>
         </form>
-        <ContactUs />
       </section>
     </>
   );

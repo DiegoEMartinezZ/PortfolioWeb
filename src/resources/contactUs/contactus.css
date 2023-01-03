@@ -1,0 +1,13 @@
+div.contactus-info-container {
+  text-align: center;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+div.contactus-info-container h3 {
+  color: #fff;
+}
+
+div.contactus-info-container p {
+  color: #fff;
+}
