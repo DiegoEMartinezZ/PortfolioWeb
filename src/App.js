@@ -4,12 +4,13 @@ import { Home } from './pages/home/Home';
 import { Projects } from './pages/projects/Projects';
 import { AboutMe } from './pages/aboutMe/AboutMe';
 import { Route, Routes } from 'react-router-dom';
+
 function App() {
   return (
     <Routes>
-      <Route exact path="/portfolio-web" element={<Home />} />
-      <Route exact path="/Projects" element={<Projects />} />
-      <Route exact path="/AboutMe" element={<AboutMe />} />
+      <Route exact path="/" element={<Home />} />
+      <Route path="/Projects" element={<Projects />} />
+      <Route path="/AboutMe" element={<AboutMe />} />
     </Routes>
   );
 }
