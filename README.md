@@ -1,70 +1,23 @@
-# Getting Started with Create React App
+# Portafolio 2023
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Acá podrás encontrar quién soy yo, mi experiencia laboral, mis proyectos más relevantes y también como contactarme.
 
-## Available Scripts
+Como proyectos más relevantes estan:
 
-In the project directory, you can run:
+**1. To - Do - List:** En esta app los usuarios podrán poner sus tareas de cualquier día que quieran de la semana. Se podra dividir las tareas entre ( Todas, Tareas Completas, Tareas no completas e importantes ). Interfaz amigable que permite un fácil recorrido para el usuario al momento de agregar/editar/borrar las tareas.
 
-### `npm start`
+Adicional, dentro de las configuraciones de la app, podemos cambiar el nombre de usuario, el nombre de la lista de cosas por hacer, estadísticas de las tareas agregadas en esa sesión y las actividades más recientes.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**2. Music Weather:** En esta app los usuarios podrán buscar una ciudad que quieran y verificar como esta el clima en ese lugar. Dependiendo del clima sonará una canción específica de Spotify y a su vez mostrará una imagen alusiva a la temperatura del lugar. Podrán agregarse ciudades como ciudades favoritas para llevar una lista de ciudades las cuales quiero llevar registro.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Se puede cambiar de ciudad que se encuentre en ese pais, si queremos buscar otra ciudad que esta en otro país sería necesario cambiarlo desde la configuración.
 
-### `npm test`
+Dentro de la configuración de la app, podemos cambiar el pais y asi buscar otra ciudad de ese pais, podemos ver cuantas ciudades favoritas tenemos marcadas y también podemos filtrar unicamente por las ciudades favoritas.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**3. ICEBOX:** En esta app se busca simular el funcionamiento de un E-commerce, en el que se pueda agregar, quitar, editar y leer (CRUD) la información de los articulos que se encuentran en ese sitio web. También se podrá iniciar sesión y se podrá ver (como si fueramos administradores) que usuarios estan registrados, que imagen tiene de perfil y borrar aquellos usuarios que queramos.
 
-### `npm run build`
+Funciones de carrito de mercado, filtrar productos y agregar productos de acuerdo a unos minimos establecidos.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Cualquier comentario, sugerencia o pregunta que se tenga sobre los proyectos son más que bienvenidos.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+_Nota: Cada 6 meses estaré actualizando la información de mi portafolio así como mejorando / optimizando la funcionalidad de la misma._
