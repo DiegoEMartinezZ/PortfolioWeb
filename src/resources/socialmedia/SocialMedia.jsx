@@ -5,8 +5,8 @@ import {
   faInstagram,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
-
 import { SocialMediaIcon } from "./SocialMediaIcon";
+import "./socialMedia.css";
 
 export const SocialMedia = () => {
   return (

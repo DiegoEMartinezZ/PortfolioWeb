@@ -1,0 +1,29 @@
+section.aboutMe-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 0 20%;
+  font-weight: lighter;
+}
+
+section.aboutMe-container p.p-aboutMe-container {
+  font-size: 18px;
+  color: #fff;
+}
+
+section.aboutMe-container h2.title-aboutMe {
+  color: #3ae7ff;
+  font-size: 30px;
+}
+
+section.aboutMe-container em {
+  color: #3ae7ff;
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  section.aboutMe-container {
+    padding: 0 10%;
+  }
+}

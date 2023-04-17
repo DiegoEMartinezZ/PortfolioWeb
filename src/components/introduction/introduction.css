@@ -1,0 +1,43 @@
+section.description-container {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  min-height: 100vh;
+}
+
+p.description {
+  font-weight: lighter;
+  font-size: 2rem;
+  color: #fff;
+  padding: 0 225px;
+}
+
+p.description h5.my_name_is {
+  font-weight: lighter;
+  font-size: 25px;
+}
+
+p.description h1.name {
+  color: #3ae7ff;
+  font-family: Helvetica;
+  line-height: normal;
+}
+
+p.description h3.activities {
+  margin: 10px 0;
+  font-size: 20px;
+  font-weight: lighter;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p.description h3.activities em {
+  color: #3ae7ff;
+}
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  p.description {
+    padding: 0 10%;
+  }
+}
