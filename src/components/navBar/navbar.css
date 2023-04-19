@@ -43,7 +43,7 @@ header div.navbar-container-right section.navbar-buttons a:hover {
   color: #3ae7ff;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 1199.98px) {
+@media only screen and (min-width: 300px) and (max-width: 1200px) {
   header.navbar-container {
     margin: 1rem;
     padding: 1rem 0;

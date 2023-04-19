@@ -61,7 +61,7 @@ button:hover {
   background-color: yellow;
 }
 
-@media only screen and (min-width: 576px) and (max-width: 1200px) {
+@media only screen and (min-width: 300px) and (max-width: 1200px) {
   section.project-container {
     min-height: 50vh;
   }
@@ -71,7 +71,7 @@ button:hover {
   }
 }
 
-@media only screen and (min-width: 576px) and (max-width: 768px) {
+@media only screen and (min-width: 300px) and (max-width: 768px) {
   p.p-projects-container {
     padding: 0 10%;
   }
