@@ -6,16 +6,12 @@ export const ContactMe = () => {
     <div className="contact-container">
       <section id="contact">
         <h1 className="section-title"> Contacto </h1>
-        <div className="space"> </div>
-        <p className="info">
-          Diego Ernesto Martínez Zambrano
-          <br />
-          diermaza.23@gmail.com
-          <br />
-          (+57) 300 302 7598
-          <br />
-          Bogotá - Colombia (GMT-5)
-        </p>
+        <ul className="info">
+          <li>Diego Ernesto Martínez Zambrano</li>
+          <li> diermaza.23@gmail.com</li>
+          <li> (+57) 300 302 7598</li>
+          <li> Bogotá - Colombia (GMT-5)</li>
+        </ul>
       </section>
     </div>
   );

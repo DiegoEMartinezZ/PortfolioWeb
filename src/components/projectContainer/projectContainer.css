@@ -41,7 +41,7 @@ p.p-projects-container em {
   color: #3ae7ff;
 }
 
-section.project-container div.buttons-container {
+section.project-container form.buttons-container {
   display: flex;
   justify-content: center;
   padding: 2rem;

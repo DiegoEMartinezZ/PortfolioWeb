@@ -8,7 +8,7 @@ export const NavBar = () => {
     <>
       <header className="navbar-container">
         <Link to="/" className="back-to-home">
-          <h4> ILUSTRACIÓN </h4>
+          <h4> Home </h4>
         </Link>
         <div className="navbar-container-right">
           <NavBarButtons />

@@ -11,7 +11,7 @@ export const ProjectContainer = ({ titleProject, imageProject }) => {
       <section className="project-container">
         <h2 className="title-projects"> {titleProject} </h2>
         <img src={imageProject} alt="example" className="project-img" />
-        <div className="buttons-container">
+        <form className="buttons-container">
           <button className="button-code">
             <FontAwesomeIcon icon={faCode} /> Código
           </button>
@@ -21,7 +21,7 @@ export const ProjectContainer = ({ titleProject, imageProject }) => {
           <button className="button-codeGithub">
             <FontAwesomeIcon icon={faGithub} /> GitHub
           </button>
-        </div>
+        </form>
       </section>
     </>
   );

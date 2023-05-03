@@ -3,11 +3,11 @@ import "./introduction.css";
 export const Introduction = () => {
   return (
     <>
-      <section className="description-container">
-        <p className="description">
+      <header className="description-container">
+        <main className="description">
           <h5 className="my_name_is">Mi nombre es</h5>
           <h1 className="name">Diego Martínez</h1>
-          <h3 className="activities">
+          <p className="activities">
             Soy{" "}
             <em>
               desarrollador frontend, diseñador gráfico e ilustrador digital.{" "}
@@ -17,9 +17,9 @@ export const Introduction = () => {
             Me especializo en realizar productos llamativos, funcionales e
             interactivos para crear{" "}
             <em> experiencias digitales excepcionales. </em>
-          </h3>
-        </p>
-      </section>
+          </p>
+        </main>
+      </header>
     </>
   );
 };

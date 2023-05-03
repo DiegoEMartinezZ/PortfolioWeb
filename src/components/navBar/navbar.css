@@ -26,19 +26,19 @@ header div.navbar-container-right {
   display: flex;
 }
 
-header div.navbar-container-right section.navbar-buttons {
+header div.navbar-container-right header.navbar-buttons {
   display: flex;
   align-items: center;
 }
 
-header div.navbar-container-right section.navbar-buttons a {
+header div.navbar-container-right header.navbar-buttons a {
   list-style: none;
   text-decoration: none;
   margin: 0 1rem;
   color: #fff;
 }
 
-header div.navbar-container-right section.navbar-buttons a:hover {
+header div.navbar-container-right header.navbar-buttons a:hover {
   cursor: pointer;
   color: #3ae7ff;
 }
