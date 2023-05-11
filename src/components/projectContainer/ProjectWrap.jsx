@@ -1,6 +1,7 @@
 import React from "react";
 import { ProjectContainer } from "./ProjectContainer";
 import prueba from "../../images/prueba.jpg";
+import toDoListPreview from "../../images/To-Do-List-Preview.png";
 import "./projectContainer.css";
 
 export const ProjectWrap = () => {
@@ -21,7 +22,12 @@ export const ProjectWrap = () => {
           proyectos son más que bienvenidas.
         </em>
       </p>
-      <ProjectContainer titleProject={"ToDoList"} imageProject={prueba} />
+      <ProjectContainer
+        titleProject={"ToDoList"}
+        imageProject={toDoListPreview}
+        previewURL={"https://cheery-frangipane-226060.netlify.app/"}
+        gitURL={"https://github.com/DiegoEMartinezZ/To-Do-List"}
+      />
       <ProjectContainer titleProject={"MusicWeather"} imageProject={prueba} />
       <ProjectContainer titleProject={"Icebox"} imageProject={prueba} />
     </>

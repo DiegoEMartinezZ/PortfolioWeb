@@ -5,7 +5,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./projectContainer.css";
 import React from "react";
 
-export const ProjectContainer = ({ titleProject, imageProject }) => {
+export const ProjectContainer = ({
+  titleProject,
+  imageProject,
+  previewURL,
+  gitURL,
+}) => {
   return (
     <>
       <section className="project-container">
@@ -15,11 +20,18 @@ export const ProjectContainer = ({ titleProject, imageProject }) => {
           <button className="button-code">
             <FontAwesomeIcon icon={faCode} /> Código
           </button>
+
           <button className="button-codePreview">
-            <FontAwesomeIcon icon={faEye} /> Preview
+            <a href={previewURL} target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faEye} />
+              Preview
+            </a>
           </button>
+
           <button className="button-codeGithub">
-            <FontAwesomeIcon icon={faGithub} /> GitHub
+            <a href={gitURL} target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faGithub} /> GitHub
+            </a>
           </button>
         </form>
       </section>

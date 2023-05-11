@@ -1,3 +1,7 @@
+li {
+  list-style: none;
+}
+
 header.navbar-container {
   display: flex;
   justify-content: space-between;
@@ -26,19 +30,19 @@ header div.navbar-container-right {
   display: flex;
 }
 
-header div.navbar-container-right header.navbar-buttons {
+header div.navbar-container-right ul.navbar-buttons {
   display: flex;
   align-items: center;
 }
 
-header div.navbar-container-right header.navbar-buttons a {
+header div.navbar-container-right ul.navbar-buttons a {
   list-style: none;
   text-decoration: none;
   margin: 0 1rem;
   color: #fff;
 }
 
-header div.navbar-container-right header.navbar-buttons a:hover {
+header div.navbar-container-right ul.navbar-buttons a:hover {
   cursor: pointer;
   color: #3ae7ff;
 }
