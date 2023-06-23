@@ -38,6 +38,7 @@ main.description p.activities em {
 
 @media only screen and (min-width: 250px) and (max-width: 768px) {
   header.description-container {
+    margin: 5px 1%;
     padding: 5px;
   }
   main.description {
@@ -45,7 +46,7 @@ main.description p.activities em {
     font-size: 20px;
   }
   main.description p.activities {
-    margin: 5px 0;
+    margin: 5px 0px;
     font-size: 16px;
   }
 }

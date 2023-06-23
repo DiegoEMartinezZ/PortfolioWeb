@@ -1,21 +1,23 @@
 section.aboutMe-container {
   display: flex;
+  flex-direction: column;
   flex-wrap: nowrap;
   justify-content: center;
-  align-items: center;
+  align-items: left;
   min-height: 100vh;
   padding: 0 20%;
   font-weight: lighter;
 }
 
-section.aboutMe-container p.p-aboutMe-container {
+p.aboutMe-wrap {
   font-size: 18px;
   color: #fff;
 }
 
-section.aboutMe-container h2.title-aboutMe {
+h2.title-aboutMe {
   color: #3ae7ff;
   font-size: 30px;
+  padding: 2rem 0;
 }
 
 section.aboutMe-container em {

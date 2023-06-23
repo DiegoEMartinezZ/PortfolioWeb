@@ -4,14 +4,11 @@ export const Introduction = () => {
   return (
     <>
       <header className="description-container">
-        <main className="description">
+        <main id="introduction" className="description">
           <h5 className="my_name_is">Mi nombre es</h5>
           <h1 className="name">Diego Martínez</h1>
           <p className="activities">
-            Soy{" "}
-            <em>
-              desarrollador frontend, diseñador gráfico e ilustrador digital.{" "}
-            </em>
+            Soy <em>desarrollador frontend y diseñador gráfico. </em>
             <br />
             <br />
             Me especializo en realizar productos llamativos, funcionales e

@@ -47,7 +47,9 @@ section.project-container form.buttons-container {
   padding: 2rem;
 }
 
-button {
+button.button-code,
+button.button-code-preview,
+button.button-code-github {
   cursor: pointer;
   padding: 4px;
   border-radius: 10%;
@@ -57,7 +59,9 @@ button {
   border: none;
 }
 
-button:hover {
+button.button-code:hover,
+button.button-code-preview:hover,
+button.button-code-github:hover {
   background-color: yellow;
 }
 

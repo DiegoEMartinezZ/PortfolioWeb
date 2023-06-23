@@ -5,51 +5,99 @@ li {
 header.navbar-container {
   display: flex;
   justify-content: space-between;
-  color: #3ae7ff;
-  margin: 1rem;
-  padding: 1rem 3rem;
+  padding: 1rem;
+  margin: 2rem 3rem;
 }
 
 header.navbar-container .back-to-home {
   text-decoration: none;
   color: #fff;
+  margin: 0;
 }
 
-header.navbar-container .back-to-home h4 {
+header.navbar-container .back-to-home:hover {
   cursor: pointer;
-  text-decoration: none;
-  font-weight: lighter;
-  margin: 0 1rem;
-}
-
-header.navbar-container h4:hover {
-  color: #f9f871;
-}
-
-header div.navbar-container-right {
-  display: flex;
+  color: #3ae7ff;
 }
 
 header div.navbar-container-right ul.navbar-buttons {
   display: flex;
+  flex-wrap: nowrap;
   align-items: center;
 }
 
-header div.navbar-container-right ul.navbar-buttons a {
+header div.navbar-container-right ul.navbar-buttons li {
   list-style: none;
   text-decoration: none;
   margin: 0 1rem;
   color: #fff;
 }
 
-header div.navbar-container-right ul.navbar-buttons a:hover {
+header div.navbar-container-right ul.navbar-buttons li:hover {
   cursor: pointer;
   color: #3ae7ff;
+}
+
+button.language-button,
+button.menu-button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+section.language-options {
+  display: none;
+  clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+}
+
+section.language-options ul {
+  margin: 10px 0;
+}
+
+section.language-options.active {
+  position: absolute;
+  transform: translate(-10%, 80%);
+  display: inline-block;
+  text-align: center;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  font-weight: lighter;
+  font-size: 14px;
+  z-index: 1;
+}
+
+section.language-options.active ul li:hover {
+  cursor: pointer;
+  border-bottom: 2px solid #3ae7ff;
+}
+
+section.menu-options {
+  display: none;
+  clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+}
+
+section.menu-options.active {
+  position: absolute;
+  transform: translate(25%, 80%);
+  display: inline-block;
+  text-align: center;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+  font-weight: lighter;
+  font-size: 14px;
+  z-index: 1;
+}
+
+section.menu-options.active ul li:hover {
+  cursor: pointer;
+  border-bottom: 2px solid #3ae7ff;
 }
 
 @media only screen and (min-width: 250px) and (max-width: 1200px) {
   header.navbar-container {
     margin: 0.5rem;
-    padding: 0.5rem;
+    padding: 1rem;
   }
 }

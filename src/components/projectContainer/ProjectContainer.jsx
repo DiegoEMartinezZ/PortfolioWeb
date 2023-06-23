@@ -13,7 +13,7 @@ export const ProjectContainer = ({
 }) => {
   return (
     <>
-      <section className="project-container">
+      <section id="projects" className="project-container">
         <h2 className="title-projects"> {titleProject} </h2>
         <img src={imageProject} alt="example" className="project-img" />
         <form className="buttons-container">
@@ -21,14 +21,14 @@ export const ProjectContainer = ({
             <FontAwesomeIcon icon={faCode} /> Código
           </button>
 
-          <button className="button-codePreview">
+          <button className="button-code-preview">
             <a href={previewURL} target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faEye} />
               Preview
             </a>
           </button>
 
-          <button className="button-codeGithub">
+          <button className="button-code-github">
             <a href={gitURL} target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faGithub} /> GitHub
             </a>
