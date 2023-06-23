@@ -21,7 +21,7 @@ export const SocialMedia = () => {
           image={faLinkedin}
         />
         <SocialMediaIcon
-          url={"https://www.behance.net/srmiel"}
+          url={"https://www.behance.net/lowoncyan_"}
           image={faBehance}
         />
         <SocialMediaIcon

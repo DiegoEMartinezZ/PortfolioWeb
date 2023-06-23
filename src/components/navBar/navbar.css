@@ -3,10 +3,15 @@ li {
 }
 
 header.navbar-container {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
   display: flex;
   justify-content: space-between;
   padding: 1rem;
   margin: 2rem 3rem;
+  z-index: 1;
 }
 
 header.navbar-container .back-to-home {
@@ -49,6 +54,11 @@ button.menu-button {
   outline: inherit;
 }
 
+button.language-button.active,
+button.menu-button.active {
+  transform: rotate(90deg);
+}
+
 section.language-options {
   display: none;
   clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
@@ -66,7 +76,11 @@ section.language-options.active {
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   font-weight: lighter;
   font-size: 14px;
-  z-index: 1;
+  z-index: 2;
+}
+
+section.language-options.active ul li {
+  padding: 10px 0;
 }
 
 section.language-options.active ul li:hover {
@@ -87,7 +101,11 @@ section.menu-options.active {
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   font-weight: lighter;
   font-size: 14px;
-  z-index: 1;
+  z-index: 2;
+}
+
+section.menu-options.active ul li {
+  padding: 10px 0;
 }
 
 section.menu-options.active ul li:hover {

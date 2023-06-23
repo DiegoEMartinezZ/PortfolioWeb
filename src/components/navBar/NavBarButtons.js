@@ -7,15 +7,23 @@ export const NavBarButtons = () => {
   const languageHandler = () => {
     const languageButton = document.querySelector(".language-button");
     const languageWindow = document.querySelector(".language-options");
+    const menuButton = document.querySelector(".menu-button");
+    const menuWindow = document.querySelector(".menu-options");
     languageButton.classList.toggle("active");
     languageWindow.classList.toggle("active");
+    menuButton.classList.remove("active");
+    menuWindow.classList.remove("active");
   };
 
   const menuHandler = () => {
     const menuButton = document.querySelector(".menu-button");
     const menuWindow = document.querySelector(".menu-options");
+    const languageButton = document.querySelector(".language-button");
+    const languageWindow = document.querySelector(".language-options");
     menuButton.classList.toggle("active");
     menuWindow.classList.toggle("active");
+    languageButton.classList.remove("active");
+    languageWindow.classList.remove("active");
   };
 
   return (
