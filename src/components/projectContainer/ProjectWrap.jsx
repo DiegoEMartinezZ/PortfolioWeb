@@ -7,11 +7,10 @@ import "./projectContainer.css";
 export const ProjectWrap = () => {
   return (
     <>
-      {" "}
+      <h2 className="title-projects-container"> Proyectos </h2>
       <p className="p-projects-container">
-        <h2 className="title-projects-container"> Proyectos </h2>
         <br />
-        Cada uno de estos proyectos tiene como objetivo aplicar los
+        Cada uno de estos proyectos tiene como objetivo mostrar los
         conocimientos que tengo de desarrollo web (backend y frontend), diseño
         UI/UX, diagramación y manejo de color. Dando solución a los problemas
         que pueda tener el usuario frente a una necesidad que tenga.

@@ -7,11 +7,13 @@ header.navbar-container {
   top: 0;
   right: 0;
   left: 0;
+  transform: translateY(-15%);
+  background-color: #000;
   display: flex;
   justify-content: space-between;
   padding: 1rem;
   margin: 2rem 3rem;
-  z-index: 1;
+  z-index: 2;
 }
 
 header.navbar-container .back-to-home {
@@ -76,7 +78,8 @@ section.language-options.active {
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   font-weight: lighter;
   font-size: 14px;
-  z-index: 2;
+  z-index: 1;
+  background-color: #000;
 }
 
 section.language-options.active ul li {
@@ -101,7 +104,8 @@ section.menu-options.active {
   clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
   font-weight: lighter;
   font-size: 14px;
-  z-index: 2;
+  z-index: 1;
+  background-color: #000;
 }
 
 section.menu-options.active ul li {

@@ -25,10 +25,11 @@ section h2.title-projects {
   padding: 2rem;
 }
 
-p h2.title-projects-container {
+h2.title-projects-container {
   font-size: 30px;
   color: #3ae7ff;
   font-size: 30px;
+  margin: 0 30px;
 }
 
 p.p-projects-container {
