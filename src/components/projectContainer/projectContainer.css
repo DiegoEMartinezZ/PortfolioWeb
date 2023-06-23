@@ -66,18 +66,19 @@ a {
   text-decoration: none;
 }
 
-@media only screen and (min-width: 300px) and (max-width: 1200px) {
+@media only screen and (min-width: 250px) and (max-width: 1200px) {
   section.project-container {
-    min-height: 50vh;
+    min-height: 10vh;
   }
 
   img.project-img {
-    width: 80%;
+    width: 100%;
+    height: auto;
   }
 }
 
-@media only screen and (min-width: 300px) and (max-width: 768px) {
+@media only screen and (min-width: 250px) and (max-width: 768px) {
   p.p-projects-container {
-    padding: 0 10%;
+    padding: 0 7%;
   }
 }

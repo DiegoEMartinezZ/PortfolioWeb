@@ -36,8 +36,16 @@ main.description p.activities em {
   color: #3ae7ff;
 }
 
-@media only screen and (min-width: 300px) and (max-width: 768px) {
-  p.description {
-    padding: 0 10%;
+@media only screen and (min-width: 250px) and (max-width: 768px) {
+  header.description-container {
+    padding: 5px;
+  }
+  main.description {
+    padding: 0 20px;
+    font-size: 20px;
+  }
+  main.description p.activities {
+    margin: 5px 0;
+    font-size: 16px;
   }
 }

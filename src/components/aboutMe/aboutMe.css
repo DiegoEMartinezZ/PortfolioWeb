@@ -22,8 +22,8 @@ section.aboutMe-container em {
   color: #3ae7ff;
 }
 
-@media only screen and (min-width: 300px) and (max-width: 768px) {
+@media only screen and (min-width: 250px) and (max-width: 768px) {
   section.aboutMe-container {
-    padding: 0 10%;
+    padding: 0 7%;
   }
 }
