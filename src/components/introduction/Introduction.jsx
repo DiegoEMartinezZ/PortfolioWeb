@@ -8,7 +8,7 @@ export const Introduction = () => {
           <h5 className="my_name_is">Mi nombre es</h5>
           <h1 className="name">Diego Martínez</h1>
           <p className="activities">
-            Soy <em>desarrollador frontend y diseñador gráfico. </em>
+            Soy <em>desarrollador fullstack y diseñador gráfico. </em>
             <br />
             <br />
             Me especializo en realizar productos llamativos, funcionales e

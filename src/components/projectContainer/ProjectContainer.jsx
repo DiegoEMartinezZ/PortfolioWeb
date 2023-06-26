@@ -2,8 +2,8 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faEye } from "@fortawesome/free-regular-svg-icons";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import "./projectContainer.css";
 import React from "react";
+import "./projectContainer.css";
 
 export const ProjectContainer = ({
   titleProject,

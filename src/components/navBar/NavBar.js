@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { NavBarButtons } from "./NavBarButtons";
-import "../navBar/navbar.css";
 import { IconHome } from "@tabler/icons-react";
+import "../navBar/navbar.css";
 
 export const NavBar = () => {
   return (
