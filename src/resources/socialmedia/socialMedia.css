@@ -1,18 +1,18 @@
 ul.socialMedia-container {
   display: flex;
-  justify-content: center;
   flex-wrap: nowrap;
-  list-style: none;
-  padding: 1rem;
+  justify-content: center;
+  padding: 2rem;
 }
 
 ul.socialMedia-container li a {
   cursor: pointer;
   margin: 2rem;
-  color: #fff;
+  color: #000;
+  font-size: 18px;
 }
 
 ul.socialMedia-container li a:hover {
-  color: #3ae7ff;
-  border-bottom: #3ae7ff 2px solid;
+  color: #fff;
+  border-bottom: #fff 2px solid;
 }

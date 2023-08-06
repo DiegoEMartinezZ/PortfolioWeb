@@ -1,20 +1,27 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import { NavBarButtons } from "./NavBarButtons";
-import { IconHome } from "@tabler/icons-react";
 import "../navBar/navbar.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import React from "react";
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 export const NavBar = () => {
   return (
     <>
-      <header className="navbar-container">
-        <Link to="/" className="back-to-home">
-          <IconHome />
-        </Link>
-        <div className="navbar-container-right">
-          <NavBarButtons />
-        </div>
-      </header>
+      <nav className="navbar-container">
+        <ul className="navbar-list">
+          <li>
+            <h2 className="logo"> Logo </h2>
+          </li>
+          <li>
+            <section className="navbar-buttons-wrap">
+              <ul>
+                <li>
+                  <FontAwesomeIcon icon={faBars} className="menu-btn" />
+                </li>
+              </ul>
+            </section>
+          </li>
+        </ul>
+      </nav>
     </>
   );
 };

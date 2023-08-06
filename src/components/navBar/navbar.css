@@ -1,125 +1,23 @@
-li {
-  list-style: none;
-}
-
-header.navbar-container {
+nav.navbar-container {
   position: fixed;
   top: 0;
-  right: 0;
   left: 0;
-  transform: translateY(-15%);
-  background-color: #000;
-  display: flex;
-  justify-content: space-between;
-  padding: 1rem;
-  margin: 2rem 3rem;
-  z-index: 2;
+  right: 0;
+  width: 100%;
+  background-color: #3ae7ff;
+  color: #000;
+  z-index: 1;
 }
 
-header.navbar-container .back-to-home {
-  text-decoration: none;
-  color: #fff;
-  margin: 0;
-}
-
-header.navbar-container .back-to-home:hover {
-  cursor: pointer;
-  color: #3ae7ff;
-}
-
-header div.navbar-container-right ul.navbar-buttons {
+ul.navbar-list {
   display: flex;
   flex-wrap: nowrap;
-  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem;
+  margin: 0 30px;
 }
 
-header div.navbar-container-right ul.navbar-buttons li {
-  list-style: none;
-  text-decoration: none;
-  margin: 0 1rem;
-  color: #fff;
-}
-
-header div.navbar-container-right ul.navbar-buttons li:hover {
-  cursor: pointer;
-  color: #3ae7ff;
-}
-
-button.language-button,
-button.menu-button {
-  background: none;
-  color: inherit;
-  border: none;
-  padding: 0;
-  font: inherit;
-  cursor: pointer;
-  outline: inherit;
-}
-
-button.language-button.active,
-button.menu-button.active {
-  transform: rotate(90deg);
-}
-
-section.language-options {
-  display: none;
-  clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-}
-
-section.language-options ul {
-  margin: 10px 0;
-}
-
-section.language-options.active {
-  position: absolute;
-  transform: translate(-10%, 80%);
-  display: inline-block;
-  text-align: center;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+.logo {
+  font-size: 18px;
   font-weight: lighter;
-  font-size: 14px;
-  z-index: 1;
-  background-color: #000;
-}
-
-section.language-options.active ul li {
-  padding: 10px 0;
-}
-
-section.language-options.active ul li:hover {
-  cursor: pointer;
-  border-bottom: 2px solid #3ae7ff;
-}
-
-section.menu-options {
-  display: none;
-  clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-}
-
-section.menu-options.active {
-  position: absolute;
-  transform: translate(25%, 80%);
-  display: inline-block;
-  text-align: center;
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-  font-weight: lighter;
-  font-size: 14px;
-  z-index: 1;
-  background-color: #000;
-}
-
-section.menu-options.active ul li {
-  padding: 10px 0;
-}
-
-section.menu-options.active ul li:hover {
-  cursor: pointer;
-  border-bottom: 2px solid #3ae7ff;
-}
-
-@media only screen and (min-width: 250px) and (max-width: 1200px) {
-  header.navbar-container {
-    margin: 0.5rem;
-    padding: 1rem;
-  }
 }

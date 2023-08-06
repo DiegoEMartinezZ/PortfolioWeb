@@ -1,8 +1,0 @@
-div.page-container {
-  position: absolute;
-  min-height: 100vh;
-}
-
-div.page-container div.content-wrap {
-  padding-bottom: 2.5rem;
-}
