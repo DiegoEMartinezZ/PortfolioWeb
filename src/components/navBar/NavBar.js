@@ -9,9 +9,6 @@ export const NavBar = () => {
       <nav className="navbar-container">
         <ul className="navbar-list">
           <li>
-            <h2 className="logo"> Logo </h2>
-          </li>
-          <li>
             <section className="navbar-buttons-wrap">
               <ul>
                 <li>
