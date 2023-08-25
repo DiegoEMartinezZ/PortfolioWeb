@@ -14,7 +14,6 @@ export const ProjectContainer = ({
       <section className="description-container" id="projects">
         <h1 className="title">{titleProject} </h1>
 
-        <img src={imageProject} alt="project-cover" className="project-img" />
         <div className="buttons-wrap">
           <button className="code-btn">
             <a href={previewURL} target="_blank" rel="noopener noreferrer">

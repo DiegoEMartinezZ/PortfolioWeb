@@ -53,6 +53,10 @@ button {
   border-radius: 5px;
 }
 
+.code-btn:hover {
+  background-color: #fff;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -77,8 +81,10 @@ a {
 }
 
 .menu-btn {
+  cursor: pointer;
   font-size: 22px;
   padding: 5px 5px 0 0;
+  display: none;
 }
 
 @media only screen and (min-width: 750px) and (max-width: 1200px) {
@@ -102,7 +108,7 @@ a {
 
 @media only screen and (min-width: 1200px) {
   section.description-container {
-    margin: 300px 20%;
+    margin: 300px 30%;
   }
   .title {
     font-size: 50px;

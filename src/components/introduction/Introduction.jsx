@@ -8,7 +8,6 @@ export const Introduction = () => {
           <h5 className="subtitle">Mi nombre es</h5>
           <h1 className="title">Diego Martínez</h1>
           <p className="txt">
-            Soy <em>desarrollador fullstack y diseñador gráfico. </em>
             Me especializo en realizar productos llamativos, funcionales e
             interactivos para crear{" "}
             <em> experiencias digitales excepcionales. </em>
