@@ -5,7 +5,7 @@ export const Footer = () => {
   return (
     <>
       <footer className="footer-container" id="contact">
-        <h1 className="title">Contacto</h1>
+        <h1 className="subtitle">Contacto</h1>
         <ul className="info-list">
           <li>Diego Ernesto Martínez Zambrano</li>
           <li> diermaza.23@gmail.com</li>

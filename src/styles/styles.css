@@ -94,22 +94,29 @@ a {
   display: none;
 }
 
-@media only screen and (min-width: 750px) and (max-width: 1200px) {
+@media only screen and (min-width: 250px) and (max-width: 1200px) {
   section.description-container {
-    margin: 300px 10%;
+    margin: 20% 30px;
   }
   .title {
-    font-size: 45px;
-  }
-  .subtitle {
     font-size: 30px;
   }
+  .subtitle {
+    font-size: 25px;
+  }
   .txt {
-    font-size: 18px;
+    font-size: 16px;
   }
   .menu-btn {
     font-size: 22px;
     padding: 10px;
+  }
+
+  .code-btn {
+    font-size: 12px;
+    margin: 15px 0;
+    margin-right: 5px;
+    padding: 4px;
   }
 }
 
