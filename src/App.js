@@ -5,10 +5,10 @@ import BackGroundAnimated from "../src/resources/backGroundEffect/BackGroundAnim
 function App() {
   return (
     <>
-      <BackGroundAnimated />
       <Routes>
         <Route exact path="/" element={<Home />} />
       </Routes>
+      <BackGroundAnimated />
     </>
   );
 }

@@ -62,6 +62,10 @@ button {
   border-radius: 5px;
 }
 
+.code-btn:hover {
+  background-color: #fff;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -81,4 +85,57 @@ a {
 .copyrights {
   font-weight: 500;
   text-align: center;
+}
+
+.menu-btn {
+  cursor: pointer;
+  font-size: 22px;
+  padding: 5px 5px 0 0;
+  display: none;
+}
+
+@media only screen and (min-width: 750px) and (max-width: 1200px) {
+  section.description-container {
+    margin: 300px 10%;
+  }
+  .title {
+    font-size: 45px;
+  }
+  .subtitle {
+    font-size: 30px;
+  }
+  .txt {
+    font-size: 18px;
+  }
+  .menu-btn {
+    font-size: 22px;
+    padding: 10px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  section.description-container {
+    margin: 300px 30%;
+  }
+  .title {
+    font-size: 50px;
+  }
+  .subtitle {
+    font-size: 40px;
+  }
+  .txt {
+    font-size: 22px;
+  }
+
+  .menu-btn {
+    font-size: 30px;
+    padding: 20px;
+  }
+
+  .code-btn {
+    font-size: 14px;
+    margin: 40px 0;
+    margin-right: 15px;
+    padding: 10px;
+  }
 }

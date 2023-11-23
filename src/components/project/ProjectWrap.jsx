@@ -1,6 +1,5 @@
 import React from "react";
 import { ProjectContainer } from "./ProjectContainer";
-import toDoListPreview from "../../images/To-Do-List-Preview.png";
 
 export const ProjectWrap = () => {
   return (
@@ -22,7 +21,6 @@ export const ProjectWrap = () => {
 
       <ProjectContainer
         titleProject={"ToDoList"}
-        imageProject={toDoListPreview}
         previewURL={"https://cheery-frangipane-226060.netlify.app/"}
         gitURL={"https://github.com/DiegoEMartinezZ/To-Do-List"}
       />
