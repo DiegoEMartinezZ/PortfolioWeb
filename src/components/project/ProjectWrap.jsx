@@ -6,22 +6,20 @@ export const ProjectWrap = () => {
   return (
     <>
       <section className="description-container">
-        <h1 className="title"> Proyectos </h1>
+        <h1 className="subtitle"> Projects </h1>
         <p className="txt">
-          <em>Cada uno de estos proyectos tiene como objetivo </em> general
-          mostrar los conocimientos que tengo de desarrollo web, tanto en la
-          parte de backend y frontend, diseño UI/UX, diagramación, manejo de
-          color, jerarquías, entre otros conocimientos. Todo esto con el fin de
-          que el usuario pueda utilizar de manera intuitiva y efectiva la
-          aplicación web.
-          <br />
-          <br />
+          Each of these projects has as a general objective to show the
+          knowledge I have of web development as my experience in frontend,
+          UI/UX design, layout, color management, hierarchies in both text and
+          visual elements.
           <em>
-            Cualquier comentario, sugerencia o duda que existan frente a estos
-            proyectos son más que bienvenidos.
+            {" "}
+            All this in order that the user can use the web application in an
+            intuitive and effective way.
           </em>
         </p>
       </section>
+
       <ProjectContainer
         titleProject={"ToDoList"}
         imageProject={toDoListPreview}

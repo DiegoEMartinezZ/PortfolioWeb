@@ -3,22 +3,22 @@ import React from "react";
 export const AboutMe = () => {
   return (
     <>
-      <section className="description-container">
-        <h1 className="title"> Acerca de mi </h1>
-        <p className="txt">
-          Desarrollador fullstack con enfasis en desarrollo frontend motivado,
-          atento al detalle, buen trabajo en equipo y siempre dispuesto para
-          crear llamativas, funcionales e interactivas experiencias digitales.
-          Habilidades en HTML, CSS, JavaScript y APIs. Actualmente me encuentro
-          mejorando mis conocimientos en el framework React Js para mejorar mi
-          portafolio de proyectos. <br /> <br />
-          <em>
-            {" "}
-            Me gusta continuar aprendiendo para crecer profesionalmente dentro
-            de este mundo digital.
-          </em>
-        </p>
-      </section>
+      <div id="about">
+        <section className="description-container">
+          <h1 className="subtitle"> About me </h1>
+          <p className="txt">
+            Fullstack developer and graphic designer. Motivated, attentive to
+            detail, good team player and always ready to create engaging,
+            functional and interactive digital experiences. Skills in HTML, CSS,
+            JavaScript and APIs.
+            <em>
+              {" "}
+              I am currently improving my knowledge in React and React Native to
+              improve my projects.
+            </em>
+          </p>
+        </section>
+      </div>
     </>
   );
 };

@@ -6,11 +6,8 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 export const NavBar = () => {
   return (
     <>
-      <nav className="navbar-container">
+      <nav className="navbar-container" id="navbar">
         <ul className="navbar-list">
-          <li>
-            <h2 className="logo"> Logo </h2>
-          </li>
           <li>
             <section className="navbar-buttons-wrap">
               <ul>

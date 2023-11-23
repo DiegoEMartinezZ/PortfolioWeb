@@ -4,20 +4,14 @@ nav.navbar-container {
   left: 0;
   right: 0;
   width: 100%;
-  background-color: #3ae7ff;
-  color: #000;
+  color: #fff;
   z-index: 1;
 }
 
 ul.navbar-list {
   display: flex;
   flex-wrap: nowrap;
-  justify-content: space-between;
-  padding: 0.5rem;
+  justify-content: flex-end;
+  padding: 1.2rem;
   margin: 0 30px;
-}
-
-.logo {
-  font-size: 18px;
-  font-weight: lighter;
 }

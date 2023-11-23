@@ -1,35 +1,37 @@
+#introduction,
+#about {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 section.description-container {
-  margin: 150px 50px;
+  margin: 20% 250px;
   text-align: justify;
   color: #fff;
 }
 
 .title {
-  font-weight: 700;
-  font-size: 35px;
+  font-weight: 600;
+  font-size: 60px;
   padding-bottom: 15px;
 }
 
 .subtitle {
   font-weight: 400;
-  font-size: 18px;
+  font-size: 25px;
   color: #3ae7ff;
 }
 
 .txt {
-  font-weight: 100;
+  font-weight: lighter;
+  font-size: 20px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 em {
   color: #3ae7ff;
-}
-
-#projects {
-  text-align: center;
-}
-
-.project-img {
-  width: 80%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 button {
@@ -42,12 +44,19 @@ button {
   outline: inherit;
 }
 
+#project-name {
+  display: block;
+  text-align: center;
+}
+
 .code-btn {
   cursor: pointer;
+  font-weight: 600;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 12px;
   background-color: #3ae7ff;
   color: #000;
-  margin: 20px 0;
+  margin: 10px 0;
   margin-right: 5px;
   padding: 5px;
   border-radius: 5px;
@@ -59,11 +68,10 @@ a {
 }
 
 .footer-container {
-  background-color: #3ae7ff;
-  color: #000;
+  color: #fff;
   width: 100%;
   text-align: center;
-  padding: 25px;
+  padding: 10px;
 }
 
 .info-list {
