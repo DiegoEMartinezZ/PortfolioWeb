@@ -5,7 +5,7 @@ export const ProjectWrap = () => {
   return (
     <>
       <section className="description-container">
-        <h1 className="subtitle"> Projects </h1>
+        <h1 className="subtitle">Projects</h1>
         <p className="txt">
           Each of these projects has the general objective to show the knowledge
           I have of web development as my experience in frontend, UI/UX design,
@@ -25,7 +25,7 @@ export const ProjectWrap = () => {
         gitURL={"https://github.com/DiegoEMartinezZ/To-Do-List"}
       />
       <ProjectContainer
-        titleProject={"MusicWeather"}
+        titleProject={"Music Weather"}
         gitURL={"https://github.com/DiegoEMartinezZ/MusicWeather"}
       />
       <ProjectContainer

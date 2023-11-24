@@ -6,7 +6,12 @@
 }
 
 body {
-  background-color: #000;
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 64, 86, 1) 100%
+  );
 }
 
 section.description-container {
@@ -48,9 +53,18 @@ button {
   outline: inherit;
 }
 
-#project-name {
+#project-container {
   display: block;
   text-align: center;
+  padding: 2rem;
+  border-radius: 20px;
+  margin: 2% 250px;
+}
+
+#project-title {
+  color: #fff;
+  font-weight: 600;
+  margin: 10px;
 }
 
 .code-btn {
@@ -60,14 +74,24 @@ button {
   font-size: 12px;
   background-color: #3ae7ff;
   color: #000;
-  margin: 10px 0;
+  margin: 5px 0;
   margin-right: 5px;
   padding: 5px;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
-.code-btn:hover {
+.code-btn:hover,
+#preview:hover,
+#coding:hover {
   background-color: #fff;
+}
+
+#preview {
+  background-color: #90fcab;
+}
+
+#coding {
+  background-color: #f9f871;
 }
 
 a {
@@ -87,8 +111,11 @@ a {
 }
 
 .copyrights {
-  font-weight: 500;
+  font-weight: lighter;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-align: center;
+  font-style: italic;
+  margin: 1rem;
 }
 
 .menu-btn {
@@ -118,9 +145,9 @@ a {
 
   .code-btn {
     font-size: 12px;
-    margin: 15px 0;
+    margin: 5px 0;
     margin-right: 5px;
-    padding: 4px;
+    padding: 0.5rem;
   }
 }
 

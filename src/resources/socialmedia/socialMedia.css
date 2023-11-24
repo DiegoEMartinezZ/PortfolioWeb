@@ -16,3 +16,13 @@ ul.socialMedia-container li a:hover {
   color: #fff;
   border-bottom: #fff 2px solid;
 }
+
+@media only screen and (min-width: 250px) and (max-width: 1200px) {
+  ul.socialMedia-container {
+    padding: 1rem;
+  }
+
+  ul.socialMedia-container li a {
+    font-size: 15px;
+  }
+}
