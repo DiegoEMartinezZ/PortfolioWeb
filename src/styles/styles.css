@@ -5,6 +5,10 @@
   justify-content: center;
 }
 
+body {
+  background-color: #000;
+}
+
 section.description-container {
   margin: 20% 250px;
   text-align: justify;

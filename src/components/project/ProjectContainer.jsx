@@ -23,13 +23,13 @@ export const ProjectContainer = ({
 
           <button className="code-btn">
             <a href={gitURL} target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon icon={faGithub} /> GitHub
+              <FontAwesomeIcon icon={faGithub} /> Repository
             </a>
           </button>
 
           <button className="code-btn">
             <a href="{behanceURL}" target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon icon={faBehance} /> Behance
+              <FontAwesomeIcon icon={faBehance} /> Portfolio
             </a>
           </button>
         </div>

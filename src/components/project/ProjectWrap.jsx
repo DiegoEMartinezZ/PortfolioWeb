@@ -7,10 +7,10 @@ export const ProjectWrap = () => {
       <section className="description-container">
         <h1 className="subtitle"> Projects </h1>
         <p className="txt">
-          Each of these projects has as a general objective to show the
-          knowledge I have of web development as my experience in frontend,
-          UI/UX design, layout, color management, hierarchies in both text and
-          visual elements.
+          Each of these projects has the general objective to show the knowledge
+          I have of web development as my experience in frontend, UI/UX design,
+          layout, color management, hierarchies in both text and visual
+          elements.
           <em>
             {" "}
             All this in order that the user can use the web application in an
