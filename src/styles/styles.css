@@ -125,6 +125,20 @@ a {
   display: none;
 }
 
+#details-info {
+  margin: 15px 0;
+  font-style: italic;
+  font-weight: lighter;
+  cursor: pointer;
+  font-size: 16px;
+  border: #3ae7ff 1px solid;
+  padding: 0.8rem;
+}
+
+#details-info:hover {
+  color: #90fcab;
+}
+
 @media only screen and (min-width: 250px) and (max-width: 1200px) {
   section.description-container {
     margin: 20% 30px;
@@ -152,11 +166,14 @@ a {
   #project-container {
     margin: 2% 1%;
   }
+  #details-info {
+    font-size: 12px;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
   section.description-container {
-    margin: 300px 30%;
+    margin: 200px 30%;
   }
   .title {
     font-size: 50px;
