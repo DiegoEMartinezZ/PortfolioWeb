@@ -1,14 +1,16 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import experience from "../experience/experience.json";
-import "../expSlider/expSlider.css";
 import { faCircleCheck } from "@fortawesome/free-regular-svg-icons";
+import { faCaretLeft, faCaretRight } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
+import "../expSlider/expSlider.css";
 
-export const ExpSlider = () => {
+export const ExpSlider = ({ workExperienceHandler }) => {
   const [idxSlider, setIdxSlider] = useState(0);
   const { id, name, position, years, txt, tasks } = experience[idxSlider];
+
   return (
-    <div>
+    <div className="exp-container" onClick={workExperienceHandler}>
       <li key={id} className="exp-slider">
         <h1 className="exp-title"> {name} </h1>
         <h5 className="exp-position"> {position} </h5>
@@ -22,7 +24,11 @@ export const ExpSlider = () => {
             return (
               <li key={idx} className="exp-tasks-container">
                 <p className="exp-task">
-                  <FontAwesomeIcon icon={faCircleCheck} /> {""}
+                  <FontAwesomeIcon
+                    icon={faCircleCheck}
+                    className="exp-check-task"
+                  />{" "}
+                  {""}
                   {task}
                 </p>{" "}
               </li>
@@ -31,19 +37,22 @@ export const ExpSlider = () => {
         </ul>
         <br />
       </li>
-
-      <button onClick={() => idxSlider > 0 && setIdxSlider(idxSlider - 1)}>
-        {" "}
-        izquierda{" "}
-      </button>
-      <button
-        onClick={() =>
-          idxSlider < experience.length - 1 && setIdxSlider(idxSlider + 1)
-        }
-      >
-        {" "}
-        derecha{" "}
-      </button>
+      <section className="exp-btn-container">
+        <button
+          onClick={() => idxSlider > 0 && setIdxSlider(idxSlider - 1)}
+          className="exp-btn"
+        >
+          <FontAwesomeIcon icon={faCaretLeft} />
+        </button>
+        <button
+          onClick={() =>
+            idxSlider < experience.length - 1 && setIdxSlider(idxSlider + 1)
+          }
+          className="exp-btn"
+        >
+          <FontAwesomeIcon icon={faCaretRight} />
+        </button>
+      </section>
     </div>
   );
 };

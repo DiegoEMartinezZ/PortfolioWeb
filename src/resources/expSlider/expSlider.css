@@ -1,4 +1,32 @@
+.arrow-work-exp {
+  transition: 0.3s ease;
+}
+
+.arrow-work-exp.active {
+  transform: rotate(90deg);
+  transition: 0.3s ease;
+}
+
+.exp-container {
+  clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  transition: 0.5s ease;
+  border: #3ae7ff 1px solid;
+  padding: 2rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.exp-container.show {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+  transition: 0.3s ease;
+  border: #3ae7ff 1px solid;
+  padding: 2rem;
+  position: relative;
+}
+
 .exp-title {
+  font-weight: 500;
   font-size: 23px;
   margin: 6px 0;
   color: #3ae7ff;
@@ -26,4 +54,30 @@
 
 .exp-task {
   margin: 20px 0;
+}
+
+.exp-check-task {
+  color: #aeff99;
+}
+
+.exp-btn-container {
+  display: block;
+  text-align: center;
+}
+
+.exp-btn {
+  cursor: pointer;
+  margin: 0 15px;
+}
+
+.exp-btn:hover {
+  color: #aeff99;
+}
+
+@media only screen and (min-width: 250px) and (max-width: 1200px) {
+  .exp-title {
+    font-weight: 100;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+  }
 }
