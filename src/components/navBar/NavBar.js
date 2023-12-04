@@ -1,9 +1,12 @@
 import "../navBar/navbar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import React from "react";
-import { faBars } from "@fortawesome/free-solid-svg-icons";
+import React, { useContext } from "react";
+import { faGlobe } from "@fortawesome/free-solid-svg-icons";
+import { languageContext } from "../../App";
 
 export const NavBar = () => {
+  const { languageHandler } = useContext(languageContext);
+
   return (
     <>
       <nav className="navbar-container" id="navbar">
@@ -12,7 +15,11 @@ export const NavBar = () => {
             <section className="navbar-buttons-wrap">
               <ul>
                 <li>
-                  <FontAwesomeIcon icon={faBars} className="menu-btn" />
+                  <FontAwesomeIcon
+                    icon={faGlobe}
+                    className="menu-btn"
+                    onClick={languageHandler}
+                  />
                 </li>
               </ul>
             </section>

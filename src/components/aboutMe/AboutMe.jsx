@@ -1,29 +1,18 @@
-import React, { useContext } from "react";
+import React from "react";
 import Experience from "../experience/Experience";
-import { languageContext } from "../../App";
+import english from "../../resources/languages/english.json";
 
 export const AboutMe = () => {
-  const { language, languageHandler } = useContext(languageContext);
-  console.log(language);
+  const { aboutMe } = english[1];
+
   return (
     <>
       <div id="about">
         <section className="description-container">
-          <h1 className="subtitle" onClick={languageHandler}>
-            {" "}
-            About me{" "}
-          </h1>
+          <h1 className="subtitle">{aboutMe.title}</h1>
           <p className="txt">
-            I am from Bogotá, Colombia. Fullstack developer, graphic designer
-            and digital artist. Motivated, attentive to detail, good team player
-            and always ready to create engaging, functional and interactive
-            digital experiences. Skills in Adobe Suite, HTML, CSS, JavaScript
-            and APIs.
-            <em>
-              {" "}
-              I am currently improving my knowledge in React and React Native to
-              improve my projects.
-            </em>
+            {aboutMe.txt[0]}
+            <em> {aboutMe.txt[1]}</em>
           </p>
           <Experience />
         </section>

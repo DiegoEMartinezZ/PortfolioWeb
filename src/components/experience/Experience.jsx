@@ -2,6 +2,7 @@ import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import { ExpSlider } from "../../resources/expSlider/ExpSlider";
+import english from "../../resources/languages/english.json";
 
 const Experience = () => {
   const workExperienceHandler = () => {
@@ -12,6 +13,8 @@ const Experience = () => {
     visibleWorkExperience.classList.toggle("show");
   };
 
+  const { aboutMe } = english[1];
+
   return (
     <section>
       <h1 id="details-info" onClick={workExperienceHandler}>
@@ -20,7 +23,7 @@ const Experience = () => {
           icon={faChevronRight}
           className="arrow-work-exp"
         />{" "}
-        Work Experience
+        {aboutMe.workExp}
       </h1>
 
       <ExpSlider value={workExperienceHandler} />

@@ -11,5 +11,11 @@ ul.navbar-list {
   display: flex;
   flex-wrap: nowrap;
   justify-content: flex-end;
-  padding: 1.2rem;
+  padding: 0.5rem;
+}
+
+.menu-btn {
+  cursor: pointer;
+  width: 40%;
+  padding: 1px;
 }

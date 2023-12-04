@@ -118,13 +118,6 @@ a {
   margin: 1rem;
 }
 
-.menu-btn {
-  cursor: pointer;
-  font-size: 22px;
-  padding: 5px 5px 0 0;
-  display: none;
-}
-
 #details-info {
   margin: 15px 0;
   font-style: italic;
