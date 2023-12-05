@@ -1,13 +1,15 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleCheck } from "@fortawesome/free-regular-svg-icons";
 import { faCaretLeft, faCaretRight } from "@fortawesome/free-solid-svg-icons";
-import { useState } from "react";
-import english from "../../resources/languages/english.json";
+import { useState, useContext } from "react";
+import { languageContext } from "../../App";
+
 import "../expSlider/expSlider.css";
 
 export const ExpSlider = ({ workExperienceHandler }) => {
+  const { language } = useContext(languageContext);
+  const { experience } = language[3];
   const [idxSlider, setIdxSlider] = useState(0);
-  const { experience } = english[3];
   const { id, name, position, years, txt, tasks } = experience[idxSlider];
 
   return (
@@ -19,8 +21,6 @@ export const ExpSlider = ({ workExperienceHandler }) => {
         <br />
         <p className="exp-txt"> {txt} </p>
         <ul>
-          <h4 className="exp-task"> Roles: </h4>
-
           {tasks.map((task, idx) => {
             return (
               <li key={idx} className="exp-tasks-container">

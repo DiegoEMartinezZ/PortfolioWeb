@@ -1,21 +1,18 @@
-import React from "react";
+import React, { useContext } from "react";
+import { languageContext } from "../../App";
 import { ProjectContainer } from "./ProjectContainer";
 
 export const ProjectWrap = () => {
+  const { language } = useContext(languageContext);
+  const { projects } = language[2];
+  const { title, txt } = projects;
   return (
     <>
       <section className="description-container">
-        <h1 className="subtitle">Projects</h1>
+        <h1 className="subtitle">{title}</h1>
         <p className="txt">
-          Each of these projects has the general objective to show the knowledge
-          I have of web development as my experience in frontend, UI/UX design,
-          layout, color management, hierarchies in both text and visual
-          elements.
-          <em>
-            {" "}
-            All this in order that the user can use the web application in an
-            intuitive and effective way.
-          </em>
+          {txt[0]}
+          <em> {txt[1]}</em>
         </p>
       </section>
 

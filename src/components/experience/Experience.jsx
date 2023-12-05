@@ -1,8 +1,8 @@
-import React from "react";
+import React, { useContext } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronRight } from "@fortawesome/free-solid-svg-icons";
 import { ExpSlider } from "../../resources/expSlider/ExpSlider";
-import english from "../../resources/languages/english.json";
+import { languageContext } from "../../App";
 
 const Experience = () => {
   const workExperienceHandler = () => {
@@ -12,8 +12,9 @@ const Experience = () => {
     openingArrow.classList.toggle("active");
     visibleWorkExperience.classList.toggle("show");
   };
-
-  const { aboutMe } = english[1];
+  const { language } = useContext(languageContext);
+  const { aboutMe } = language[1];
+  const { workExp } = aboutMe;
 
   return (
     <section>
@@ -23,7 +24,7 @@ const Experience = () => {
           icon={faChevronRight}
           className="arrow-work-exp"
         />{" "}
-        {aboutMe.workExp}
+        {workExp}
       </h1>
 
       <ExpSlider value={workExperienceHandler} />

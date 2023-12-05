@@ -8,10 +8,10 @@ export const languageContext = createContext();
 
 function App() {
   const [isEnglishSelected, SetIsEnglishSelected] = useState(true);
-  const [language, setLanguage] = useState({ english }); // Esto es el JSON en ingles!
+  const [language, setLanguage] = useState(english); // Esto es el JSON en ingles!
   const languageHandler = () => SetIsEnglishSelected(!isEnglishSelected);
   useEffect(() => {
-    setLanguage(isEnglishSelected ? { english } : { spanish }); // Esto es JSON en SPA
+    setLanguage(isEnglishSelected ? english : spanish); // Esto es JSON en SPA
   }, [isEnglishSelected]);
   return (
     <>

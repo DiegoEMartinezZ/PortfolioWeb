@@ -1,18 +1,20 @@
-import React from "react";
+import React, { useContext } from "react";
 import Experience from "../experience/Experience";
-import english from "../../resources/languages/english.json";
+import { languageContext } from "../../App";
 
 export const AboutMe = () => {
-  const { aboutMe } = english[1];
+  const { language } = useContext(languageContext);
+  const { aboutMe } = language[1];
+  const { title, txt } = aboutMe;
 
   return (
     <>
       <div id="about">
         <section className="description-container">
-          <h1 className="subtitle">{aboutMe.title}</h1>
+          <h1 className="subtitle">{title}</h1>
           <p className="txt">
-            {aboutMe.txt[0]}
-            <em> {aboutMe.txt[1]}</em>
+            {txt[0]}
+            <em> {txt[1]}</em>
           </p>
           <Experience />
         </section>

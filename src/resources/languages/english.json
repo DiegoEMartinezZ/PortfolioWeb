@@ -98,5 +98,10 @@
       "github": "Repository",
       "behance": "Portfolio"
     }
+  },
+  {
+    "contact": {
+      "title": "Contact"
+    }
   }
 ]
