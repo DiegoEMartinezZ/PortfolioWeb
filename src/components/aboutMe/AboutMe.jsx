@@ -1,3 +1,4 @@
+import "../../styles/styles.css";
 import React, { useContext } from "react";
 import Experience from "../experience/Experience";
 import { languageContext } from "../../App";

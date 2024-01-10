@@ -5,17 +5,34 @@ nav.navbar-container {
   right: 0;
   width: 100%;
   color: #fff;
+  z-index: 1;
 }
 
 ul.navbar-list {
   display: flex;
   flex-wrap: nowrap;
   justify-content: flex-end;
-  padding: 0.5rem;
+  padding: 3px;
+  margin: 0 20px;
 }
 
-.menu-btn {
+.language-btn {
   cursor: pointer;
-  width: 40%;
-  padding: 1px;
+  margin: 20px;
+}
+
+h5:hover {
+  cursor: pointer;
+  border-bottom: 1px solid #3ae7ff;
+  color: #3ae7ff;
+}
+
+h5 {
+  font-weight: 100;
+}
+
+@media only screen and (min-width: 250px) and (max-width: 1200px) {
+  ul.navbar-list {
+    margin: 0 5px;
+  }
 }

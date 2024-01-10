@@ -19,10 +19,11 @@ ul.socialMedia-container li a:hover {
 
 @media only screen and (min-width: 250px) and (max-width: 1200px) {
   ul.socialMedia-container {
-    padding: 1rem;
+    padding: 20px 10px;
   }
 
   ul.socialMedia-container li a {
     font-size: 15px;
+    margin: 20px;
   }
 }

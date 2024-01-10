@@ -45,6 +45,9 @@ export const ExpSlider = ({ workExperienceHandler }) => {
         >
           <FontAwesomeIcon icon={faCaretLeft} />
         </button>
+
+        <h4 className="id-exp">{idxSlider + 1}</h4>
+
         <button
           onClick={() =>
             idxSlider < experience.length - 1 && setIdxSlider(idxSlider + 1)

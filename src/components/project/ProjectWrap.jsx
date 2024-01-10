@@ -16,23 +16,16 @@ export const ProjectWrap = () => {
         </p>
       </section>
 
+      <ProjectContainer titleProject={"Boardify"} previewURL={""} gitURL={""} />
       <ProjectContainer
-        titleProject={"ToDoList"}
-        previewURL={"https://cheery-frangipane-226060.netlify.app/"}
-        gitURL={"https://github.com/DiegoEMartinezZ/To-Do-List"}
+        titleProject={"Color Crafter"}
+        previewURL={""}
+        gitURL={""}
       />
       <ProjectContainer
-        titleProject={"Music Weather"}
-        gitURL={"https://github.com/DiegoEMartinezZ/MusicWeather"}
-      />
-      <ProjectContainer
-        titleProject={"D&AM Digital Media"}
-        previewURL={"https://majestic-cucurucho-62109b.netlify.app/"}
-        gitURL={"https://github.com/DiegoEMartinezZ/DYAM"}
-      />
-      <ProjectContainer
-        titleProject={"Icebox"}
-        gitURL={"https://github.com/DiegoEMartinezZ/Icebox_VisualDesign"}
+        titleProject={"Short But Better"}
+        previewURL={""}
+        gitURL={""}
       />
     </>
   );

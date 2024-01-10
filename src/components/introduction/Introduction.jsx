@@ -1,4 +1,3 @@
-import "../../styles/styles.css";
 import React, { useContext } from "react";
 import { languageContext } from "../../App";
 import { SocialMedia } from "../../resources/socialmedia/SocialMedia";
@@ -9,7 +8,7 @@ export const Introduction = () => {
   const { title, name, txt } = introduction;
   return (
     <>
-      <main id="introduction">
+      <div id="introduction">
         <section className="description-container">
           <h5 className="subtitle">{title}</h5>
           <h1 className="title">{name}</h1>
@@ -20,7 +19,8 @@ export const Introduction = () => {
           </p>
           <SocialMedia />
         </section>
-      </main>
+        <div id="about"></div>
+      </div>
     </>
   );
 };

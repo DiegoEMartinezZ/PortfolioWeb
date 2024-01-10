@@ -94,7 +94,7 @@
   },
   {
     "buttons": {
-      "web": "Vista previa",
+      "web": "En vivo",
       "github": "Repositorio",
       "behance": "Portafolio"
     }
@@ -102,6 +102,11 @@
   {
     "contact": {
       "title": "Contacto"
+    }
+  },
+  {
+    "translation": {
+      "tongue": "ENG"
     }
   }
 ]

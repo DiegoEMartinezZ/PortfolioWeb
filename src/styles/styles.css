@@ -15,7 +15,7 @@ body {
 }
 
 section.description-container {
-  margin: 20% 250px;
+  margin: 20% 200px;
   text-align: justify;
   color: #fff;
 }
@@ -129,6 +129,7 @@ a {
 }
 
 #details-info:hover {
+  cursor: pointer;
   color: #90fcab;
 }
 
@@ -149,7 +150,6 @@ a {
     font-size: 22px;
     padding: 10px;
   }
-
   .code-btn {
     font-size: 12px;
     margin: 5px 0;
@@ -177,12 +177,10 @@ a {
   .txt {
     font-size: 22px;
   }
-
   .menu-btn {
     font-size: 30px;
     padding: 20px;
   }
-
   .code-btn {
     font-size: 14px;
     margin: 40px 0;

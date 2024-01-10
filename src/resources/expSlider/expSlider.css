@@ -74,6 +74,11 @@
   color: #aeff99;
 }
 
+h4.id-exp {
+  display: inline-block;
+  font-weight: 100;
+}
+
 @media only screen and (min-width: 250px) and (max-width: 1200px) {
   .exp-title {
     font-weight: 100;

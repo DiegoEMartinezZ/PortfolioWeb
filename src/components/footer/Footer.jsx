@@ -20,7 +20,7 @@ export const Footer = () => {
             <SocialMedia />
           </li>
           <li>
-            <h5 className="copyrights"> &copy; Diego Martínez - 2023 </h5>
+            <h5 className="copyrights"> &copy; Diego Martínez - 2024 </h5>
           </li>
         </ul>
       </footer>
