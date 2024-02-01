@@ -15,7 +15,7 @@ export const NavBar = () => {
             <section className="navbar-buttons-wrap">
               <ul>
                 <li className="language-btn" onClick={languageHandler}>
-                  <h5>{tongue}</h5>
+                  <h5 className="btn-language">{tongue}</h5>
                 </li>
               </ul>
             </section>

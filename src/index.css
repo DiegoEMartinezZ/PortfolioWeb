@@ -5,3 +5,7 @@
   font-family: "Roboto", "Montserrat";
   list-style: none;
 }
+
+html {
+  scroll-behavior: smooth;
+}

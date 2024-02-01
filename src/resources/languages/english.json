@@ -108,5 +108,13 @@
     "translation": {
       "tongue": "ESP"
     }
+  },
+  {
+    "form": {
+      "title": "Have a question or want to work together?",
+      "email": "Your email ...",
+      "msg": "Your message ...",
+      "btn": "Submit"
+    }
   }
 ]

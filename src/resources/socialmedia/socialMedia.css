@@ -9,12 +9,13 @@ ul.socialMedia-container li a {
   cursor: pointer;
   margin: 2rem;
   color: #fff;
+  padding: 5px;
   font-size: 18px;
 }
 
 ul.socialMedia-container li a:hover {
   color: #fff;
-  border-bottom: #fff 2px solid;
+  border-bottom: #fff 1px solid;
 }
 
 @media only screen and (min-width: 250px) and (max-width: 1200px) {

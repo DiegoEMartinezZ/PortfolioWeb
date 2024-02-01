@@ -108,5 +108,13 @@
     "translation": {
       "tongue": "ENG"
     }
+  },
+  {
+    "form": {
+      "title": "Tienes preguntas o ¿Quieres trabajar juntos?",
+      "email": "Tu correo electrónico ...",
+      "msg": "Tu mensaje ...",
+      "btn": "Enviar"
+    }
   }
 ]

@@ -1,5 +1,5 @@
 nav.navbar-container {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
@@ -21,13 +21,13 @@ ul.navbar-list {
   margin: 20px;
 }
 
-h5:hover {
+.btn-language:hover {
   cursor: pointer;
   border-bottom: 1px solid #3ae7ff;
   color: #3ae7ff;
 }
 
-h5 {
+.btn-language {
   font-weight: 100;
 }
 

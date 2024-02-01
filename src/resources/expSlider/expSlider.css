@@ -67,11 +67,8 @@
 
 .exp-btn {
   cursor: pointer;
+  color: #3ae7ff;
   margin: 0 15px;
-}
-
-.exp-btn:hover {
-  color: #aeff99;
 }
 
 h4.id-exp {
