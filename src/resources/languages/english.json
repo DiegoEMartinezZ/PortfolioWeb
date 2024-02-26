@@ -114,7 +114,9 @@
       "title": "Have a question or want to work together?",
       "email": "Your email ...",
       "msg": "Your message ...",
-      "btn": "Submit"
+      "btn": "Submit",
+      "labelEmail": "Email:",
+      "labelTextarea": "Message:"
     }
   }
 ]

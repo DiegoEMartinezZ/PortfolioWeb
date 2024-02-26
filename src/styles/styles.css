@@ -70,7 +70,6 @@ button {
 }
 
 #project-container {
-  display: block;
   text-align: center;
   padding: 2rem;
   border-radius: 20px;
@@ -98,7 +97,8 @@ button {
 
 .code-btn:hover,
 #preview:hover,
-#coding:hover {
+#coding:hover,
+#portfolio:hover {
   background-color: #fff;
 }
 
@@ -108,6 +108,10 @@ button {
 
 #coding {
   background-color: #f9f871;
+}
+
+#portfolio {
+  background-color: #3ae7ff;
 }
 
 a {
@@ -168,6 +172,12 @@ textarea {
   width: 60%;
   height: auto;
   background-color: #fff;
+}
+
+.label-form {
+  display: block;
+  color: #3ae7ff;
+  margin: 10px 0;
 }
 
 textarea {

@@ -114,7 +114,9 @@
       "title": "Tienes preguntas o ¿Quieres trabajar juntos?",
       "email": "Tu correo electrónico ...",
       "msg": "Tu mensaje ...",
-      "btn": "Enviar"
+      "btn": "Enviar",
+      "labelEmail": "Correo Eléctronico:",
+      "labelTextarea": "Mensaje:"
     }
   }
 ]

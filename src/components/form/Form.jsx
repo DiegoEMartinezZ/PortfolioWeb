@@ -8,7 +8,7 @@ import { languageContext } from "../../App";
 const Form = () => {
   const { language } = useContext(languageContext);
   const { form } = language[7];
-  const { title, email, msg, btn } = form;
+  const { title, email, msg, btn, labelEmail, labelTextarea } = form;
 
   const randomID = uuidv4();
   const [formData, setformData] = useState({
@@ -83,6 +83,7 @@ const Form = () => {
           onChange={formDataHandler}
           className="id-novisible"
         />
+        <label className="label-form"> {labelEmail} </label>
         <input
           id="email"
           type="email"
@@ -94,6 +95,8 @@ const Form = () => {
         <br />
 
         <br />
+        <label className="label-form"> {labelTextarea} </label>
+
         <textarea
           id="message"
           name="message"

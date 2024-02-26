@@ -4,14 +4,19 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { languageContext } from "../../App";
 import React, { useContext } from "react";
 
-export const ProjectContainer = ({ titleProject, previewURL, gitURL }) => {
+export const ProjectContainer = ({
+  titleProject,
+  previewURL,
+  gitURL,
+  behanceURL,
+}) => {
   const { language } = useContext(languageContext);
   const { buttons } = language[4];
-  const { web, github, behance } = buttons;
+  const { web, behance, github } = buttons;
 
   return (
     <>
-      <section className="description-container" id="project-container">
+      <section id="project-container">
         <h1 className="subtitle" id="project-title">
           {titleProject}
         </h1>
@@ -29,8 +34,8 @@ export const ProjectContainer = ({ titleProject, previewURL, gitURL }) => {
             </a>
           </button>
 
-          <button className="code-btn">
-            <a href="{behanceURL}" target="_blank" rel="noopener noreferrer">
+          <button className="code-btn" id="portfolio">
+            <a href={behanceURL} target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faBehance} /> {behance}
             </a>
           </button>
