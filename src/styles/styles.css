@@ -72,7 +72,6 @@ button {
 #project-container {
   text-align: center;
   padding: 2rem;
-  border-radius: 20px;
   margin: 2% 250px;
 }
 
@@ -234,6 +233,18 @@ textarea {
   .title {
     font-size: 50px;
   }
+
+  #project-title {
+    font-size: 25px;
+    margin: auto;
+  }
+
+  .buttons-wrap {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+  }
   .subtitle {
     font-size: 40px;
   }
@@ -245,13 +256,33 @@ textarea {
     padding: 20px;
   }
   .code-btn {
-    font-size: 14px;
-    margin: 40px 0;
-    margin-right: 15px;
-    padding: 10px;
+    font-size: 13px;
+    margin: 10px 5px;
   }
+
   input,
   textarea {
     width: 20%;
+  }
+
+  .project-grip-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 200px;
+  }
+
+  #project-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background-color: #134f66;
+    margin: 0 auto;
+    height: 250px;
+    width: auto;
+  }
+
+  #project-container:hover {
+    cursor: pointer;
+    background-color: #063446;
   }
 }
