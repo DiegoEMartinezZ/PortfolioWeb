@@ -227,6 +227,12 @@ textarea {
     margin-right: 5px;
     padding: 0.5rem;
   }
+
+  .buttons-wrap {
+    margin: 20px 0;
+    padding: 1rem;
+  }
+
   #project-container {
     margin: 2% 1%;
   }
@@ -236,11 +242,38 @@ textarea {
   .title-form {
     font-size: 13px;
   }
+  .project-grip-container {
+    display: grid;
+    grid-template-rows: repeat(4, 1fr);
+    margin-bottom: 200px;
+  }
+
+  #project-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 0 auto;
+    height: 320px;
+    width: 400px;
+    border-radius: 5px;
+  }
+
+  #project-container:hover {
+    cursor: pointer;
+    background-color: #063446;
+  }
+
+  p.description-project {
+    color: #fff;
+    font-weight: lighter;
+    font-size: 14px;
+    margin: 8px 0;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
   section.description-container {
-    margin: 200px 30%;
+    margin: 150px 30%;
   }
   .title {
     font-size: 50px;
@@ -287,14 +320,21 @@ textarea {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    background-color: #134f66;
     margin: 0 auto;
-    height: 250px;
-    width: auto;
+    height: 300px;
+    width: 380px;
+    border-radius: 5px;
   }
 
   #project-container:hover {
     cursor: pointer;
     background-color: #063446;
+  }
+
+  p.description-project {
+    color: #fff;
+    font-weight: lighter;
+    font-size: 14px;
+    margin: 20px 0;
   }
 }

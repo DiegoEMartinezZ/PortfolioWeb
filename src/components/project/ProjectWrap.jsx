@@ -5,7 +5,8 @@ import { ProjectContainer } from "./ProjectContainer";
 export const ProjectWrap = () => {
   const { language } = useContext(languageContext);
   const { projects } = language[2];
-  const { title, txt } = projects;
+  const { title, txt, descriptions } = projects;
+
   return (
     <>
       <section className="description-container">
@@ -19,24 +20,28 @@ export const ProjectWrap = () => {
       <div className="project-grip-container">
         <ProjectContainer
           titleProject={"Boardify"}
+          descriptionProject={descriptions[0]}
           previewURL={""}
           gitURL={""}
-          behanceURL={""}
         />
-        <ProjectContainer titleProject={"Color Crafter"} previewURL={""} />
+        <ProjectContainer
+          titleProject={"Color Crafter"}
+          descriptionProject={descriptions[1]}
+          previewURL={""}
+          gitURL={""}
+        />
         <ProjectContainer
           titleProject={"Icebox"}
+          descriptionProject={descriptions[2]}
           previewURL={""}
           gitURL={""}
-          behanceURL={""}
         />
         <ProjectContainer
           titleProject={"D&AM"}
+          descriptionProject={descriptions[3]}
           previewURL={"https://majestic-cucurucho-62109b.netlify.app/"}
           gitURL={"https://github.com/DiegoEMartinezZ/DYAM"}
-          behanceURL={""}
         />
-        behanceURL={""}
       </div>
     </>
   );

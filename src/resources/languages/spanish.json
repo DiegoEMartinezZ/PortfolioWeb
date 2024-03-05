@@ -25,6 +25,12 @@
       "txt": [
         "Cada uno de estos proyectos tiene como objetivo general mostrar el conocimiento que tengo en desarrollo web así como mi experiencia en frontend, diseño UI/UX, diagramación, manejo del color, jerarquías de texto y elementos visuales.",
         "Todo esto para que el usuario que use la aplicación web de una manera intuitiva y eficiente."
+      ],
+      "descriptions": [
+        "Boardify reúne todas tus tareas diarias de forma organizada e intuitiva. Funcionalidad de arrastrar y soltar para una organización más fácil y rápida de tus tareas y tableros. Permite crear, leer, editar y eliminar tareas y tableros (CRUD).",
+        "Color Crafter permite al usuario elegir un color y genera automáticamente diferentes paletas de colores para que el usuario elija la que más le convenga. Selecciona el color desde una paleta de colores genérica o con el valor hexadecimal del color. Permite copiar y pegar los diferentes colores de la paleta o un color específico",
+        "Icebox es un sitio de comercio electrónico que permite al usuario buscar videojuegos a través de filtros específicos o generales. Posibilidad de ver el CRUD de los productos para los usuarios registrados y una lista de los productos que ha colocado en el sitio web. Se utilizaron SQL y APIs para la creación de las bases de datos de productos y usuarios",
+        "D&AM es un sitio web de marketing digital y medios de comunicación enfocado en brindar diferentes servicios de acuerdo a las necesidades de cada uno de sus clientes. Busca optimizar procesos y hacer un análisis de cada uno de los aspectos que intervienen en el área de marketing. Ofrece sus servicios para pequeñas y grandes empresas."
       ]
     }
   },
