@@ -19,28 +19,31 @@ export const ProjectWrap = () => {
 
       <div className="project-grip-container">
         <ProjectContainer
-          titleProject={"Boardify"}
-          descriptionProject={descriptions[0]}
-          previewURL={""}
-          gitURL={""}
-        />
-        <ProjectContainer
           titleProject={"Color Crafter"}
           descriptionProject={descriptions[1]}
           previewURL={""}
           gitURL={""}
         />
+
+        <ProjectContainer
+          titleProject={"Boardify"}
+          descriptionProject={descriptions[0]}
+          previewURL={""}
+          gitURL={""}
+        />
+
+        <ProjectContainer
+          titleProject={"Music Weather"}
+          descriptionProject={"PENDIENTE"}
+          previewURL={""}
+          gitURL={""}
+        />
+
         <ProjectContainer
           titleProject={"Icebox"}
           descriptionProject={descriptions[2]}
           previewURL={""}
           gitURL={""}
-        />
-        <ProjectContainer
-          titleProject={"D&AM"}
-          descriptionProject={descriptions[3]}
-          previewURL={"https://majestic-cucurucho-62109b.netlify.app/"}
-          gitURL={"https://github.com/DiegoEMartinezZ/DYAM"}
         />
       </div>
     </>
