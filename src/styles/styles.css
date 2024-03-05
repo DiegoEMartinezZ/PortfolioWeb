@@ -242,10 +242,18 @@ textarea {
   .title-form {
     font-size: 13px;
   }
+
+  #project-title {
+    font-size: 25px;
+    border-left: #3ae7ff solid 1px;
+    border-right: #3ae7ff solid 1px;
+    margin: auto 2px;
+  }
+
   .project-grip-container {
     display: grid;
     grid-template-rows: repeat(4, 1fr);
-    margin-bottom: 200px;
+    margin-bottom: 100px;
   }
 
   #project-container {
@@ -253,8 +261,8 @@ textarea {
     flex-direction: column;
     flex-wrap: nowrap;
     margin: 0 auto;
-    height: 320px;
-    width: 400px;
+    height: 280px;
+    width: 410px;
     border-radius: 5px;
   }
 
@@ -281,7 +289,9 @@ textarea {
 
   #project-title {
     font-size: 25px;
-    margin: auto;
+    border-left: #3ae7ff solid 1px;
+    border-right: #3ae7ff solid 1px;
+    margin: auto 2px;
   }
 
   .buttons-wrap {
@@ -312,7 +322,7 @@ textarea {
 
   .project-grip-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     margin-bottom: 200px;
   }
 

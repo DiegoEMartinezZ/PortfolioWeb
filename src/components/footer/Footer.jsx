@@ -32,8 +32,6 @@ export const Footer = () => {
           </li>
           <li>
             <h5 className="copyrights"> Diego Martínez &copy; 2024 </h5>
-            <h5 className="copyrights"> diermaza.23@gmail.com </h5>
-            <h5 className="copyrights"> Bogotá - Colombia </h5>
           </li>
         </ul>
       </footer>
