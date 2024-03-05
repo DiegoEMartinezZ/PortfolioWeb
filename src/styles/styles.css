@@ -175,6 +175,18 @@ textarea {
 }
 
 .btn-submit {
+  cursor: pointer;
+  background-color: #90fcab;
+  color: #000;
+  font-weight: lighter;
+  padding: 5px;
+  border-radius: 5px;
+  margin: 20px 0;
+}
+
+.disabled {
+  pointer-events: none;
+  opacity: 0.2;
   background-color: #90fcab;
   color: #000;
   font-weight: lighter;

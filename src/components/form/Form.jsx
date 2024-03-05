@@ -26,9 +26,9 @@ const Form = () => {
   };
 
   const submitHandler = (e) => {
-    if (formData.email && formData.message === !null) {
-      e.preventDefault();
+    e.preventDefault();
 
+    if (formData.email && formData.message !== "") {
       // Send to the google Sheet data base
 
       const dataBaseURL =
@@ -103,7 +103,10 @@ const Form = () => {
         ></textarea>
 
         <br />
-        <button type="submit" className="btn-submit">
+        <button
+          type="submit"
+          className={`${formData.message !== "" ? "btn-submit" : "disabled"}`}
+        >
           {btn}
         </button>
       </form>
