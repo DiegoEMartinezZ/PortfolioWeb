@@ -16,17 +16,28 @@ export const ProjectWrap = () => {
         </p>
       </section>
 
-      <ProjectContainer titleProject={"Boardify"} previewURL={""} gitURL={""} />
-      <ProjectContainer
-        titleProject={"Color Crafter"}
-        previewURL={""}
-        gitURL={""}
-      />
-      <ProjectContainer
-        titleProject={"Short But Better"}
-        previewURL={""}
-        gitURL={""}
-      />
+      <div className="project-grip-container">
+        <ProjectContainer
+          titleProject={"Boardify"}
+          previewURL={""}
+          gitURL={""}
+          behanceURL={""}
+        />
+        <ProjectContainer titleProject={"Color Crafter"} previewURL={""} />
+        <ProjectContainer
+          titleProject={"Icebox"}
+          previewURL={""}
+          gitURL={""}
+          behanceURL={""}
+        />
+        <ProjectContainer
+          titleProject={"D&AM"}
+          previewURL={"https://majestic-cucurucho-62109b.netlify.app/"}
+          gitURL={"https://github.com/DiegoEMartinezZ/DYAM"}
+          behanceURL={""}
+        />
+        behanceURL={""}
+      </div>
     </>
   );
 };
