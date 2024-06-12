@@ -4,21 +4,15 @@ import { languageContext } from "../../App";
 
 export const NavBar = () => {
   const { languageHandler, language } = useContext(languageContext);
-  const { translation } = language[6];
-  const { tongue } = translation;
+  const { select_language } = language[4];
+  const { languages } = select_language;
 
   return (
     <>
       <nav className="navbar-container" id="navbar">
         <ul className="navbar-list">
-          <li>
-            <section className="navbar-buttons-wrap">
-              <ul>
-                <li className="language-btn" onClick={languageHandler}>
-                  <h5 className="btn-language">{tongue}</h5>
-                </li>
-              </ul>
-            </section>
+          <li className="language-btn" onClick={languageHandler}>
+            {languages}
           </li>
         </ul>
       </nav>

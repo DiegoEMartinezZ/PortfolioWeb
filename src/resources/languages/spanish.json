@@ -1,128 +1,58 @@
 [
   {
     "introduction": {
-      "title": "Mi nombre es",
       "name": "Diego Martínez",
-      "txt": [
-        "Soy desarrollador fullstack y diseñador gráfico.",
-        "Me especializo en realizar llamativos, funcionales e interactivos productos para crear experiencias digitales excepcionales."
-      ]
-    }
-  },
-  {
-    "aboutMe": {
-      "title": "Acerca de mi",
-      "txt": [
-        "Soy de Bogotá, Colombia. Desarrollador fullstack, diseñador gráfico y artista digital. Motivado, atento al detalle, buen trabajo en equipo y siempre listo para crear atractivas, funcionales e interactivas experiencias digitales. Habilidades en la Suite Adobe, HTML, CSS, Javascript y APIs.",
-        "Actualmente me encuentro ampliando mis conocimientos en React y React Native para mejorar mis proyectos."
-      ],
-      "workExp": "Experiencia Laboral"
+      "resume": "Soy diseñador gráfico con interes en  desarrollador frontend para la creación de interfaces de usuario atractivas y funcionales. También me dedico al análisis de datos para aprovecharlos en la toma de decisiones informadas.",
+      "is_available": "Disponible para trabajar"
     }
   },
   {
     "projects": {
       "title": "Proyectos",
-      "txt": [
-        "Cada uno de estos proyectos tiene como objetivo general mostrar el conocimiento que tengo en desarrollo web así como mi experiencia en frontend, diseño UI/UX, diagramación, manejo del color, jerarquías de texto y elementos visuales.",
-        "Todo esto para que el usuario que use la aplicación web de una manera intuitiva y eficiente."
-      ],
       "descriptions": [
         "Boardify reúne todas tus tareas diarias de forma organizada e intuitiva. Funcionalidad de arrastrar y soltar para una organización más fácil y rápida de tus tareas y tableros. Permite crear, leer, editar y eliminar tareas y tableros (CRUD).",
         "Color Crafter permite al usuario elegir un color y genera automáticamente diferentes paletas de colores para que el usuario elija la que más le convenga. Selecciona el color desde una paleta de colores genérica o con el valor hexadecimal del color. Permite copiar y pegar los diferentes colores de la paleta o un color específico",
-        "Icebox es un sitio de comercio electrónico que permite al usuario buscar videojuegos a través de filtros específicos o generales. Posibilidad de ver el CRUD de los productos para los usuarios registrados y una lista de los productos que ha colocado en el sitio web. Se utilizaron SQL y APIs para la creación de las bases de datos de productos y usuarios",
-        "D&AM es un sitio web de marketing digital y medios de comunicación enfocado en brindar diferentes servicios de acuerdo a las necesidades de cada uno de sus clientes. Busca optimizar procesos y hacer un análisis de cada uno de los aspectos que intervienen en el área de marketing. Ofrece sus servicios para pequeñas y grandes empresas."
+        "Music weather es una aplicacion que combina dos APIs (Weather API y Spotify API) para mostrar al usuario el clima de una ciudad y una canción acompañaria esta busqueda de acuerdo al clima que este en ese momento."
       ]
     }
   },
   {
-    "experience": [
-      {
-        "id": 1,
-        "name": "Misión de Observación Electoral (MOE)",
-        "position": "Diseñador Gráfico| Diagramador | Ilustrador Digital",
-        "years": "Enero 2018 - Junio 2020",
-        "txt": "Diseño, diagramación y creación de piezas gráficas que buscan informar a los ciudadanos acerca de sus derechos y deberes en época electoral en Colombia.",
-        "tasks": [
-          "Participé en todas las reuniones de los componentes para proponer estrategias de comunicación eficaces en relación con las Elecciones de 2022, proponiendo estilos, maquetación, tipografía, ilustraciones y diferentes formatos de piezas (Carruseles y Reels) para estar en línea con las tendencias de las RRSS.",
-          "Desarrollé nuevos estilos gráficos para las nuevas Elecciones electorales 2023, aprobados desde Dirección y mostrados a todas las Regionales del MOE para dar la bienvenida a este nuevo año electoral. Se implementaron piezas impresas y digitales con este nuevo estilo gráfico para dar evidencia de la nueva gráfica a implementar.",
-          "Implementé junto con los demás componentes de la organización la compilación de toda la investigación que se había realizado durante 2022 creando una colección de libros que fueron entregados a políticos y expertos en el tema de elecciones en Colombia en el marco de un evento realizado en el RNCE. Diseñé, diagramé e ilustré tanto la portada de los libros como el contenido interno de cada uno de ellos, creando piezas impresas y digitales para informar sobre este evento."
-        ]
-      },
-      {
-        "id": 2,
-        "name": "Digital House - Proyecto Final",
-        "position": "Desarrollador Fullstack | Diseñador Gráfico ",
-        "years": "Junio 2021 - Enero 2022",
-        "txt": "Creación de un E-Commerce en el que tenía que tener un CRUD integrado para usuarios registrados y para productos dentro de la plataforma, aplicando todos los conocimientos aprendidos durante el curso.",
-        "tasks": [
-          "Implementé el comercio electrónico responsive así como la maquetación de la página y cada uno de los botones y enlaces para ir a cada una de las secciones de la aplicación.",
-          "Colaboré con los demás desarrolladores para proponer la mejor forma de implantar una base de datos de productos y usuarios buscando información reutilizable, contraseñas encriptadas y una imagen de perfil para cada usuario.",
-          "Desarrollé el logotipo de comercio electrónico, así como la paleta de colores que se utilizará para la aplicación dentro de los estilos CSS para mantener la unidad visual. Consultas de APIs de productos para tener un catálogo de productos completo."
-        ]
-      },
-      {
-        "id": 3,
-        "name": "Misión de Observación Electoral (MOE)",
-        "position": "Diseñador Visual | Diseñador Gráfico | Ilustrador Digital | Diagramador ",
-        "years": "Febrero 2022 - Diciembre 2022",
-        "txt": "Diseño, diagramación y creación de piezas gráficas que buscan informar a los ciudadanos sobre sus derechos y deberes durante el periodo electoral en Colombia.",
-        "tasks": [
-          "Participé en todas las reuniones de los componentes para proponer estrategias de comunicación eficaces en relación con las Elecciones de 2022, proponiendo estilos, maquetación, tipografía, ilustraciones y diferentes formatos de piezas (Carruseles y Reels) para estar en línea con las tendencias de las RRSS.",
-          "Desarrollé nuevos estilos gráficos para las nuevas Elecciones electorales 2023, aprobados desde Dirección y mostrados a todas las Regionales del MOE para dar la bienvenida a este nuevo año electoral. Se implementaron piezas impresas y digitales con este nuevo estilo gráfico para dar evidencia de la nueva gráfica a implementar.",
-          "Implementé junto con los demás componentes de la organización la compilación de toda la investigación que se había realizado durante 2022 creando una colección de libros que fueron entregados a políticos y expertos en el tema de elecciones en Colombia en el marco de un evento realizado en el RNCE. Diseñé, diagramé e ilustré tanto la portada de los libros como el contenido interno de cada uno de ellos, creando piezas impresas y digitales para informar sobre este evento."
-        ]
-      },
-      {
-        "id": 4,
-        "name": "TransMilenio S.A - SAUC",
-        "position": "Diseñador Digital - Diseñador UX",
-        "years": "Diciembre 2022 - Abril 2023",
-        "txt": "Desarrollo de piezas digitales tanto para redes sociales como para la página web de TransMilenio con el fin de informar a los ciudadanos sobre las últimas novedades del sistema.",
-        "tasks": [
-          "Implementé junto con el equipo de comunicación de SAUC piezas digitales para la comunicación efectiva de los eventos más recientes de la entidad así como piezas que informarán a los usuarios.",
-          "Elaboré GIFs para las redes sociales de la entidad para comunicar de forma eficaz, clara y rápida los problemas en algunas de sus estaciones o carreteras.",
-          "Colaboré con diseñadores y comunicadores de otras secciones de la entidad para diferentes campañas sociales que buscaban mejorar la visión de TransMilenio, buscando fortalecer la unión y la confianza con los usuarios."
-        ]
-      },
-      {
-        "id": 5,
-        "name": "DAI | Juntos por la Transparencia (JxT)",
-        "position": "Especialista Comunicaciones",
-        "years": "Agosto 2023 - Noviembre 2023",
-        "txt": "Administración de las redes sociales y canal web de la PfT. Al mismo tiempo, proporcionar apoyo en el diseño de piezas gráficas y la elaboración de sus productos audiovisuales.",
-        "tasks": [
-          "Apoyé a la redacción de contenidos, diseño gráfico de piezas de apoyo a campañas de comunicación para difundir las acciones, logros y mensajes clave del Programa.",
-          "Implementé la estrategia de comunicación digital, siendo responsable de la administración de las redes sociales y del canal web del Programa.",
-          "Garanticé que todos los materiales e informes se ajusten a la marca y al plan de marca del Programa, así como a las normas gráficas, de imagen y de comunicación exigidas por USAID."
-        ]
-      }
-    ]
+    "work_experience": {
+      "title": "Experiencia",
+      "description": [
+        {
+          "id": 1,
+          "name": "DAI | Juntos por la Transparencia (JxT)",
+          "rol": "Especialista Comunicaciones",
+          "date": "Agosto 2023 - Noviembre 2023",
+          "txt": "Realizar análisis y supervisar las redes sociales y la presencia en línea de Data Analytics. Ofrecer asistencia en la elaboración de visualizaciones de datos y contribuir a la creación de contenidos audiovisuales para las iniciativas basadas en datos de la empresa."
+        },
+        {
+          "id": 2,
+          "name": "Digital House - Proyecto Final",
+          "rol": "Desarrollador Fullstack | Diseñador Gráfico ",
+          "date": "Junio 2021 - Enero 2022",
+          "txt": "Desarrollo de una plataforma de comercio electrónico que incorpora un sistema CRUD completo para gestionar los registros de usuarios y los datos de los productos. Aplicación de los conocimientos analíticos adquiridos para optimizar la plataforma, garantizando interacciones de datos fluidas y aprovechando los conocimientos adquiridos durante el curso."
+        }
+      ]
+    }
   },
   {
     "buttons": {
       "web": "En vivo",
-      "github": "Repositorio",
-      "behance": "Portafolio"
+      "github": "Repositorio"
     }
   },
   {
-    "contact": {
-      "title": "Contacto"
+    "select_language": {
+      "languages": "ESP"
     }
   },
   {
-    "translation": {
-      "tongue": "ENG"
-    }
-  },
-  {
-    "form": {
-      "title": "Tienes preguntas o ¿Quieres trabajar juntos?",
-      "email": "Tu correo electrónico ...",
-      "msg": "Tu mensaje ...",
-      "btn": "Enviar",
-      "labelEmail": "Correo Eléctronico:",
-      "labelTextarea": "Mensaje:"
+    "call_to_action": {
+      "title": "¿Tienes un proyecto en mente?",
+      "txt": "No dudes en contactarme.",
+      "linkedin": "LinkedIn"
     }
   }
 ]

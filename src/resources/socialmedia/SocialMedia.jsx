@@ -2,7 +2,6 @@ import React from "react";
 import {
   faBehance,
   faGithub,
-  faInstagram,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
 import { SocialMediaIcon } from "./SocialMediaIcon";
@@ -23,10 +22,6 @@ export const SocialMedia = () => {
         <SocialMediaIcon
           url={"https://www.behance.net/lowoncyan_"}
           image={faBehance}
-        />
-        <SocialMediaIcon
-          url={"https://www.instagram.com/lowoncyan_"}
-          image={faInstagram}
         />
       </ul>
     </>

@@ -1,36 +1,132 @@
-#introduction,
-#about {
-  margin-top: 120px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-body {
-  background: rgb(0, 0, 0);
-  background: linear-gradient(
-    0deg,
-    rgba(0, 0, 0, 1) 0%,
-    rgba(0, 64, 86, 1) 100%
-  );
-}
-
 section.description-container {
-  margin: 20% 200px;
-  text-align: justify;
+  margin: 10%;
+  margin-top: 100px;
   color: #fff;
+}
+
+.txt,
+.cta-txt,
+.exp-date,
+.exp-rol,
+.exp-name,
+.exp-txt {
+  font-size: 15px;
 }
 
 .title {
   font-weight: 600;
-  font-size: 60px;
-  padding-bottom: 15px;
+  font-size: 40px;
+  line-height: 35px;
+  color: #3ae7ff;
+  margin: 1rem 0;
+}
+
+.txt {
+  font-weight: lighter;
+  margin: 1rem 0;
+}
+
+.available {
+  display: flex;
+  align-items: center;
+  padding: 0.8rem 1rem;
+  margin: 1.5rem 0;
+  border-radius: 0.5rem;
+  border: 1px #3ae7ff solid;
+}
+
+.green-light {
+  width: 15px;
+  height: 15px;
+  background-color: #90fcab;
+  border-radius: 50%;
+  box-shadow: 0 0 10px #90fcab;
+  animation: blink 1.5s infinite;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 1;
+    box-shadow: 0 0 10px #90fcab;
+  }
+  50% {
+    opacity: 0.6;
+    box-shadow: 0 0 5px #90fcab;
+  }
+}
+
+.is-available {
+  margin: 0 0.7rem;
 }
 
 .subtitle {
   font-weight: 400;
-  font-size: 25px;
+  font-size: 30px;
   color: #3ae7ff;
+}
+
+#project-container {
+  cursor: pointer;
+  margin: 10% 0;
+  padding: 0.8rem 1rem;
+  border-radius: 0.5rem;
+  border: 1px #3ae7ff solid;
+  color: #fff;
+}
+
+#project-title {
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  margin: 1% 0;
+}
+
+.description-project {
+  padding: 1rem 0;
+}
+
+.cta-title {
+  color: #3ae7ff;
+  margin: 0.5rem 0;
+}
+
+.cta-linkedin-btn {
+  padding: 0.5rem 0;
+  margin: 0.5rem 0;
+  background-color: #fff;
+  color: #000;
+  border-radius: 5px;
+  width: 35%;
+}
+
+.exp-info {
+  margin: 1rem 0;
+}
+
+.circle-blue {
+  font-size: 10px;
+  margin-right: 4px;
+}
+
+.exp-date {
+  font-weight: 100;
+  color: #3ae7ff;
+}
+
+.exp-name {
+  font-weight: 100;
+  font-style: italic;
+  color: #90fcab;
+}
+
+.exp-rol {
+  font-weight: 100;
+}
+
+.exp-txt {
+  font-weight: 100;
+  margin: 1.5rem 0;
 }
 
 .copyrights {
@@ -49,17 +145,6 @@ section.description-container {
   border-radius: 50%;
 }
 
-.txt {
-  font-weight: lighter;
-  font-size: 20px;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
-
-em {
-  color: #3ae7ff;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
-
 button {
   background: none;
   color: inherit;
@@ -70,22 +155,9 @@ button {
   outline: inherit;
 }
 
-#project-container {
-  text-align: center;
-  padding: 2rem;
-  margin: 2% 250px;
-}
-
-#project-title {
-  color: #fff;
-  font-weight: 600;
-  margin: 10px;
-}
-
 .code-btn {
   cursor: pointer;
   font-weight: 600;
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 12px;
   background-color: #3ae7ff;
   color: #000;
@@ -110,17 +182,12 @@ button {
   background-color: #f9f871;
 }
 
-#portfolio {
-  background-color: #3ae7ff;
-}
-
 a {
   text-decoration: none;
   color: inherit;
 }
 
 .footer-container {
-  margin-top: 50px;
   color: #000;
   width: 100%;
   text-align: center;
@@ -132,220 +199,163 @@ a {
   padding: 2rem;
 }
 
-#details-info {
-  margin: 15px 0;
-  font-style: italic;
-  font-weight: lighter;
-  cursor: pointer;
-  font-size: 16px;
-  border: #3ae7ff 1px solid;
-  padding: 0.8rem;
-}
-
-#details-info:hover {
-  cursor: pointer;
-  color: #90fcab;
-}
-
-.id-novisible {
-  display: none;
-}
-
-.form-container {
-  text-align: center;
-  margin: 10px 0;
-}
-
-.title-form {
-  color: #fff;
-  font-weight: lighter;
-  font-size: 16px;
-}
-
-input,
-textarea {
-  cursor: pointer;
-  margin: -5px 0;
-  border-radius: 5px;
-  border: none;
-  padding: 4px;
-  width: 60%;
-  height: auto;
-  background-color: #fff;
-}
-
-.label-form {
-  display: block;
-  color: #3ae7ff;
-  margin: 10px 0;
-}
-
-textarea {
-  height: 150px;
-}
-
-.btn-submit {
-  cursor: pointer;
-  background-color: #90fcab;
-  color: #000;
-  font-weight: lighter;
-  padding: 5px;
-  border-radius: 5px;
-  margin: 20px 0;
-}
-
-.disabled {
-  pointer-events: none;
-  opacity: 0.2;
-  background-color: #90fcab;
-  color: #000;
-  font-weight: lighter;
-  padding: 5px;
-  border-radius: 5px;
-  margin: 20px 0;
-}
-
-@media only screen and (min-width: 250px) and (max-width: 1200px) {
+@media (481px <= width <= 768px) {
   section.description-container {
-    margin: 20% 30px;
+    margin: 20%;
   }
+
   .title {
+    font-size: 45px;
+  }
+
+  .txt,
+  .cta-txt,
+  .exp-date,
+  .exp-rol,
+  .exp-name,
+  .exp-txt,
+  .available {
+    font-size: 18px;
+  }
+
+  .available {
+    padding: 1rem;
+    margin: 2rem 0;
+  }
+
+  .subtitle {
+    font-size: 35px;
+    color: #3ae7ff;
+  }
+
+  #project-title {
+    font-size: 20px;
+    margin: 2% 0;
+  }
+
+  .description-project {
+    padding: 0.5rem 0;
+  }
+
+  .cta-title {
+    font-size: 30px;
+    font-weight: 400;
+    color: #3ae7ff;
+    margin: 0.5rem 0;
+  }
+
+  .cta-linkedin-btn {
+    width: 15%;
+    padding: 0.5rem 0;
+  }
+
+  .copyrights,
+  .circle-blue {
+    font-size: 12px;
+  }
+}
+
+@media (769px <= width <= 1200px) {
+  section.description-container {
+    margin: 25%;
+  }
+
+  .title {
+    font-size: 45px;
+  }
+
+  .txt,
+  .cta-txt,
+  .exp-date,
+  .exp-rol,
+  .exp-name,
+  .exp-txt,
+  .available {
+    font-size: 18px;
+  }
+
+  .subtitle {
+    font-size: 35px;
+  }
+
+  #project-title {
+    font-size: 18px;
+  }
+
+  .description-project {
+    padding: 0.3rem 0;
+  }
+
+  .cta-txts-wrap {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .cta-title {
     font-size: 30px;
   }
-  .subtitle {
-    font-size: 25px;
+
+  .cta-linkedin-btn {
+    width: 4rem;
+    padding: 0.5rem 0;
   }
-  .txt {
+}
+
+@media (1201px <= width <= 1919px) {
+  section.description-container {
+    margin: 20% 30%;
+    margin-bottom: 10%;
+  }
+  .title {
+    font-size: 45px;
+  }
+
+  .txt,
+  .cta-txt,
+  .exp-date,
+  .exp-rol,
+  .exp-name,
+  .exp-txt,
+  .available {
     font-size: 16px;
   }
-  .menu-btn {
-    font-size: 22px;
-    padding: 10px;
-  }
-  .code-btn {
-    font-size: 12px;
-    margin: 5px 0;
-    margin-right: 5px;
-    padding: 0.5rem;
-  }
-
-  .buttons-wrap {
-    margin: 20px 0;
-    padding: 1rem;
-  }
-
-  #project-container {
-    margin: 2% 1%;
-  }
-  #details-info {
-    font-size: 12px;
-  }
-  .title-form {
-    font-size: 13px;
-  }
-
-  #project-title {
-    font-size: 25px;
-    border-left: #3ae7ff solid 1px;
-    border-right: #3ae7ff solid 1px;
-    margin: auto 2px;
-  }
-
-  .project-grip-container {
-    display: grid;
-    grid-template-rows: repeat(4, 1fr);
-    margin-bottom: 100px;
-  }
-
-  #project-container {
+  .cta-txts-wrap {
     display: flex;
-    flex-direction: column;
     flex-wrap: nowrap;
-    margin: 0 auto;
-    height: 280px;
-    width: 410px;
-    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
   }
 
-  #project-container:hover {
-    cursor: pointer;
-    background-color: #063446;
+  .cta-title {
+    font-size: 25px;
   }
 
-  p.description-project {
-    color: #fff;
-    font-weight: lighter;
-    font-size: 14px;
-    margin: 8px 0;
+  .cta-linkedin-btn {
+    width: 4rem;
+    padding: 0.5rem 0;
   }
 }
 
-@media only screen and (min-width: 1200px) {
+@media (1920px <= width) {
   section.description-container {
-    margin: 150px 30%;
+    margin: 10% 35%;
+    margin-bottom: 10%;
   }
-  .title {
-    font-size: 50px;
-  }
-
-  #project-title {
-    font-size: 25px;
-    border-left: #3ae7ff solid 1px;
-    border-right: #3ae7ff solid 1px;
-    margin: auto 2px;
-  }
-
-  .buttons-wrap {
+  .cta-txts-wrap {
     display: flex;
     flex-wrap: nowrap;
-    justify-content: center;
     align-items: center;
-  }
-  .subtitle {
-    font-size: 40px;
-  }
-  .txt {
-    font-size: 22px;
-  }
-  .menu-btn {
-    font-size: 30px;
-    padding: 20px;
-  }
-  .code-btn {
-    font-size: 13px;
-    margin: 10px 5px;
+    justify-content: space-between;
   }
 
-  input,
-  textarea {
-    width: 20%;
+  .cta-title {
+    font-size: 25px;
   }
 
-  .project-grip-container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin-bottom: 200px;
-  }
-
-  #project-container {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    margin: 0 auto;
-    height: 300px;
-    width: 380px;
-    border-radius: 5px;
-  }
-
-  #project-container:hover {
-    cursor: pointer;
-    background-color: #063446;
-  }
-
-  p.description-project {
-    color: #fff;
-    font-weight: lighter;
-    font-size: 14px;
-    margin: 20px 0;
+  .cta-linkedin-btn {
+    width: 4rem;
+    padding: 0.5rem 0;
   }
 }

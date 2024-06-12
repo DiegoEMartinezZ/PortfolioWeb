@@ -11,7 +11,7 @@ export const ProjectContainer = ({
   gitURL,
 }) => {
   const { language } = useContext(languageContext);
-  const { buttons } = language[4];
+  const { buttons } = language[3];
   const { web, github } = buttons;
 
   const [descriptionTxt, setDescriptionTxt] = useState(false);
@@ -20,8 +20,7 @@ export const ProjectContainer = ({
     <>
       <section
         id="project-container"
-        onMouseEnter={() => setDescriptionTxt(true)}
-        onMouseLeave={() => setDescriptionTxt(false)}
+        onClick={() => setDescriptionTxt(!descriptionTxt)}
       >
         <h1 className="subtitle" id="project-title">
           {titleProject}

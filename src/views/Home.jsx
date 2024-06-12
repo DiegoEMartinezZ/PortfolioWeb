@@ -1,13 +1,19 @@
 import React from "react";
 import { NavBar } from "../components/navBar/NavBar";
 import { Footer } from "../components/footer/Footer";
-import MainContent from "../components/mainContent/MainContent";
+import { Introduction } from "../components/introduction/Introduction";
+import { ProjectWrap } from "../components/project/ProjectWrap";
+import Experience from "../components/experience/Experience";
+import CallToAction from "../components/callToAction/CallToAction";
 
 export const Home = () => {
   return (
     <>
       <NavBar />
-      <MainContent />
+      <Introduction />
+      <ProjectWrap />
+      <CallToAction />
+      <Experience />
       <Footer />
     </>
   );

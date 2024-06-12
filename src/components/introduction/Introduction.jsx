@@ -5,21 +5,19 @@ import { SocialMedia } from "../../resources/socialmedia/SocialMedia";
 export const Introduction = () => {
   const { language } = useContext(languageContext);
   const { introduction } = language[0];
-  const { title, name, txt } = introduction;
+  const { name, resume, is_available } = introduction;
   return (
     <>
       <div id="introduction">
         <section className="description-container">
-          <h5 className="subtitle">{title}</h5>
           <h1 className="title">{name}</h1>
-          <p className="txt">
-            {txt[0]}
-            <br />
-            <em>{txt[1]} </em>
-          </p>
+          <p className="txt">{resume}</p>
+          <div className="available">
+            <div className="green-light"></div>
+            <p className="is-available">{is_available}</p>
+          </div>
           <SocialMedia />
         </section>
-        <div id="about"></div>
       </div>
     </>
   );
