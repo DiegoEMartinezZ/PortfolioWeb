@@ -60,7 +60,7 @@ section.description-container {
 }
 
 .subtitle {
-  font-weight: 400;
+  font-weight: 600;
   font-size: 30px;
   color: #3ae7ff;
 }
@@ -111,6 +111,7 @@ section.description-container {
 
 .exp-date {
   color: #3ae7ff;
+  font-weight: 200;
 }
 
 .exp-rol {
