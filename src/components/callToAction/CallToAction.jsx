@@ -12,7 +12,7 @@ const CallToAction = () => {
       <section className="description-container">
         <div className="cta-txts-wrap">
           <div>
-            <h2 className="cta-title">{title}</h2>
+            <h1 className="cta-title">{title}</h1>
             <p className="cta-txt">{txt}</p>
           </div>
 

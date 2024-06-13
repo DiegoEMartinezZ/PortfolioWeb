@@ -22,7 +22,6 @@ section.description-container {
 }
 
 .txt {
-  font-weight: lighter;
   margin: 1rem 0;
 }
 
@@ -88,6 +87,7 @@ section.description-container {
 
 .cta-title {
   color: #3ae7ff;
+  font-weight: 300;
   margin: 0.5rem 0;
 }
 
@@ -110,22 +110,21 @@ section.description-container {
 }
 
 .exp-date {
-  font-weight: 100;
   color: #3ae7ff;
 }
 
+.exp-rol {
+  font-weight: 300;
+  color: #f9f871;
+}
+
 .exp-name {
-  font-weight: 100;
+  font-weight: 300;
   font-style: italic;
   color: #90fcab;
 }
 
-.exp-rol {
-  font-weight: 100;
-}
-
 .exp-txt {
-  font-weight: 100;
   margin: 1.5rem 0;
 }
 
