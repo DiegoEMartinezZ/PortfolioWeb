@@ -21,10 +21,10 @@ export const ProjectWrap = () => {
           />
 
           <ProjectContainer
-            titleProject={"Color Crafter"}
+            titleProject={"The Color Crafter"}
             descriptionProject={descriptions[1]}
-            previewURL={""}
-            gitURL={""}
+            previewURL={"https://thecolorcrafter.netlify.app/"}
+            gitURL={"https://github.com/DiegoEMartinezZ/colorCrafter"}
           />
 
           <ProjectContainer
