@@ -66,9 +66,9 @@ section.description-container {
 }
 
 #project-container {
-  cursor: pointer;
-  margin: 10% 0;
-  padding: 0.8rem 1rem;
+  position: relative;
+  margin: 5% 0;
+  padding: 1rem 1rem;
   border-radius: 0.5rem;
   border: 1px #3ae7ff solid;
   color: #fff;
@@ -78,7 +78,11 @@ section.description-container {
   color: #fff;
   font-weight: 600;
   font-size: 20px;
-  margin: 1% 0;
+}
+
+.title-btn-container {
+  display: flex;
+  align-items: center;
 }
 
 .description-project {
@@ -98,6 +102,13 @@ section.description-container {
   color: #000;
   border-radius: 5px;
   width: 35%;
+}
+
+.btn-hidden-project {
+  cursor: pointer;
+  right: 0;
+  margin: 0 10px;
+  padding: 0.2rem;
 }
 
 .exp-info {

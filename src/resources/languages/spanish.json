@@ -22,13 +22,20 @@
       "description": [
         {
           "id": 1,
+          "name": "Inked Atlas",
+          "rol": " Desarrollador Frontend | Diseñador Digital | Cofundador",
+          "date": "Febrero 2024 - Actual",
+          "txt": "Desarrollo de piezas digitales para redes sociales y página web de la empresa de acuerdo al estilo gráfico establecido. Creación de piezas impresas y merchandising para cada uno de los productos que se entregarán a los clientes."
+        },
+        {
+          "id": 2,
           "name": "DAI | Juntos por la Transparencia (JxT)",
           "rol": "Especialista Comunicaciones",
           "date": "Agosto 2023 - Noviembre 2023",
           "txt": "Realizar análisis y supervisar las redes sociales y la presencia en línea de Data Analytics. Ofrecer asistencia en la elaboración de visualizaciones de datos y contribuir a la creación de contenidos audiovisuales para las iniciativas basadas en datos de la empresa."
         },
         {
-          "id": 2,
+          "id": 3,
           "name": "Digital House - Proyecto Final",
           "rol": "Desarrollador Fullstack | Diseñador Gráfico ",
           "date": "Junio 2021 - Enero 2022",
@@ -53,6 +60,25 @@
       "title": "¿Tienes un proyecto en mente?",
       "txt": "No dudes en contactarme.",
       "linkedin": "LinkedIn"
+    }
+  },
+  {
+    "education": {
+      "title": "Educación y certificados",
+      "description": [
+        {
+          "id": 1,
+          "name": "Beca Java Backend",
+          "rol": "Code Your Future by Globant University.",
+          "date": "Agosto 2024 - Abril 2025"
+        },
+        {
+          "id": 2,
+          "name": "Diseñador Gráfico Profesional",
+          "rol": "Universidad Jorge Tadeo Lozano - UJTL",
+          "date": "Enero 2011 - Abril 2016"
+        }
+      ]
     }
   }
 ]

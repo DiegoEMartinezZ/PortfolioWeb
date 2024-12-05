@@ -21,6 +21,13 @@
       "title": "Experience",
       "description": [
         {
+          "id": 1,
+          "name": "Inked Atlas",
+          "rol": " Frontend Developer | Digital Designer | Co-Founder",
+          "date": "February 2024 - Currently",
+          "txt": "Developed digital pieces for social networks and the company's website according to the established graphic style. Creation of printed pieces and merchandise for each of the products that will be delivered to customers."
+        },
+        {
           "id": 2,
           "name": "DAI | Colombia Partners for Transparency Project (PfT)",
           "rol": "Communication Specialist",
@@ -28,7 +35,7 @@
           "txt": "Conducting analysis and oversight of Data Analytics social networks and online presence. Offering assistance in crafting data visualizations and contributing to the creation of audiovisual content for the company's data-driven initiatives."
         },
         {
-          "id": 1,
+          "id": 3,
           "name": "Digital House - Final Project",
           "rol": "Fullstack Developer | Frontend Developer",
           "date": "June 2021 - January 2022",
@@ -53,6 +60,25 @@
       "title": "Have a project in mind?",
       "txt": "Feel free to contact me.",
       "linkedin": "LinkedIn"
+    }
+  },
+  {
+    "education": {
+      "title": "Education and Certifications",
+      "description": [
+        {
+          "id": 1,
+          "name": "Scholarship Java Backend",
+          "rol": "Code Your Future by Globant University.",
+          "date": "August 2024 - April 2025"
+        },
+        {
+          "id": 2,
+          "name": "Professional Graphic Designer",
+          "rol": "UJTL",
+          "date": "January 2011 - April 2016"
+        }
+      ]
     }
   }
 ]
