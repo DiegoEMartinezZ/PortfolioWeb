@@ -14,13 +14,6 @@ export const ProjectWrap = () => {
 
         <div className="project-grip-container">
           <ProjectContainer
-            titleProject={"Boardify"}
-            descriptionProject={descriptions[0]}
-            previewURL={""}
-            gitURL={""}
-          />
-
-          <ProjectContainer
             titleProject={"The Color Crafter"}
             descriptionProject={descriptions[1]}
             previewURL={"https://thecolorcrafter.netlify.app/"}
