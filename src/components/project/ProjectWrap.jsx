@@ -23,8 +23,8 @@ export const ProjectWrap = () => {
           <ProjectContainer
             titleProject={"Music Weather"}
             descriptionProject={descriptions[2]}
-            previewURL={""}
-            gitURL={""}
+            previewURL={"https://weather-frontend-4fv5.onrender.com/"}
+            gitURL={"https://github.com/DiegoEMartinezZ/musicWeather"}
           />
         </div>
       </section>
