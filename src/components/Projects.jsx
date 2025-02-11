@@ -11,7 +11,7 @@ const Projects = () => {
     <>
       <div className="mx-10">
         <SectionsPortfolio title={"Projects"} icon={faComputer} />
-        <ul className="text-white font-base md:grid md:grid-cols-2">
+        <ul className="text-white font-base md:grid md:grid-cols-2 lg:mx-24">
           <li className="mb-14">
             <IconProject text={"The Color Crafter"} />
             <div className="grid grid-cols-3 w-fit mx-auto items-center justify-center">

@@ -5,9 +5,9 @@ import ListKnowledge from "../UI/texts/ListKnowledge";
 const Experience = () => {
   return (
     <>
-      <section className="m-auto my-24">
+      <section className="m-auto my-24 xl:mx-72">
         <SectionsPortfolio title={"Experience"} icon={faBriefcase} />
-        <div className="text-white text-center font-base md:grid md:grid-cols-2 md:mx-44">
+        <div className="text-white text-center font-base lg:grid lg:grid-cols-1 lg:mx-44">
           <ListKnowledge
             name={"Inked Atlas"}
             date={"Feb 2024 - Currently"}
