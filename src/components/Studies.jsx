@@ -8,7 +8,7 @@ const Studies = () => {
       <SectionsPortfolio title={"Education"} icon={faBuildingColumns} />
       <ul className="text-center mx-10">
         <ListEducation
-          name={"Code Your Future By Globant Uniersity"}
+          name={"Code Your Future By Globant University"}
           rol={"Scholarship Java Developer"}
           time={"Aug 2024 - May 2025"}
         />
