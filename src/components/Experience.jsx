@@ -13,7 +13,7 @@ const Experience = () => {
             date={"Feb 2024 - Currently"}
             rol={"Frontend Developer / Digital Designer"}
             description={
-              "Built an inventory web page for the products available in the store using React and Tailwind. Tracking customers with MySQL data that have already purchased any of the products in order to send news, discounts and relevant information from the store. Developed the digital graphic pieces of the product to sell as well as pieces inviting to know the product itself and pieces allusive to different events or important dates."
+              "Built an inventory web page for the products available in the store using React and Tailwind. Tracking customers with MySQL data that have already purchased any of the products in order to send news, discounts and relevant information from the store. "
             }
           />
           <ListKnowledge
@@ -26,7 +26,7 @@ const Experience = () => {
           />
           <ListKnowledge
             name={"Misión de Observación - MOE"}
-            date={"Feb 2018 - Jun 2020 | Feb 2023 - Dec 2023"}
+            date={"Feb 2018 - Jun 2020 | Feb 2022 - Dec 2022"}
             rol={"Digital Designer | Frontend Developer | Data Analyst"}
             description={
               "Collaborating with other organizations to show the most relevant data for the 2018 and 2022 elections. Develop both printed and digital graphic pieces based on the most significant and eye-catching data to communicate the results of the organization's various research projects."

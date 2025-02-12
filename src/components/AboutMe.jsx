@@ -35,7 +35,7 @@ const AboutMe = () => {
               </p>
             )}
             <section>
-              <ul className="flex-col flex-nowrap w-fit m-auto">
+              <ul className="flex-col m-auto w-fit mx-auto justify-center items-center">
                 <CopyEmail
                   copied={copied}
                   handle={copyEmailhandle}
