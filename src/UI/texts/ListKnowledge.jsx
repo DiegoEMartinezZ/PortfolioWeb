@@ -12,7 +12,7 @@ const ListKnowledge = ({ name, date, rol, description }) => {
           {rol}
         </h3>
         <div>-</div>
-        <p className="text-xs text-balance px-4 text-white md:text-sm">
+        <p className="text-xs px-4 sm:mx-32 md:mx-12 lg:mx-30 text-white md:text-sm text-left lg:text-center">
           {description}
         </p>
       </div>

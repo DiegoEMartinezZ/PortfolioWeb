@@ -14,7 +14,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 const Projects = () => {
   return (
     <>
-      <div className="mx-10">
+      <div className="mx-4">
         <SectionsPortfolio title={"Projects"} icon={faComputer} />
         <ul className="text-white font-base md:grid md:grid-cols-2 lg:mx-24">
           <li className="mb-14">
@@ -30,7 +30,7 @@ const Projects = () => {
                   "The Color Crafter allows the user to select a color or select randomly, creating different color ranges as well as the possibility to change the color palette according to the user's needs. Perfect tool for graphic designers, UI designers, illustrators and developers."
                 }
               />
-              <ul className="text-left text-sm my-6 mx-6 sm:mx-24">
+              <ul className="text-left text-sm my-6 mx-6 sm:mx-40">
                 <h1 className="text-left my-3 font-bold">Main Features</h1>
                 <section className="text-xs text-left">
                   <li className="mb-3">
@@ -67,7 +67,7 @@ const Projects = () => {
                   "Music Weather allows the user to select a country and then one of the cities in that country, when this information is selected a play button will appear, which will bring the weather information of the city. Ideal tool for the general public, travelers/tourists, event organizers and people interested in technology and data."
                 }
               />
-              <ul className="text-left text-sm my-6 mx-6 sm:mx-24">
+              <ul className="text-left text-sm my-6 mx-6 sm:mx-40">
                 <h1 className="text-left my-3 font-bold">Main Features</h1>
                 <section className="text-xs text-left">
                   <li className="mb-3">

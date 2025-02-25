@@ -5,7 +5,7 @@ import ListKnowledge from "../UI/texts/ListKnowledge";
 const Experience = () => {
   return (
     <>
-      <section className="m-auto my-24 xl:mx-72">
+      <section className="m-auto my-24 mx-4 xl:mx-72">
         <SectionsPortfolio title={"Experience"} icon={faBriefcase} />
         <div className="text-white text-center font-base lg:grid lg:grid-cols-1 lg:mx-44">
           <ListKnowledge
